@@ -38,6 +38,9 @@ podemos observar várias delas, mas cada tag específica possui um atributo em e
 -- a: possui href
 -- podemos combiná-los, inserindo link, por meio de uma imagem, por exemplo
 
+- height altura da imagem
+- width: largura da imagem
+- alt: texto da imagem, caso esta não esteja totalmente carregada
 
 Estrutura básica
 ¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨
