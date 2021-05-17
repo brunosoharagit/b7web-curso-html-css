@@ -21,13 +21,14 @@ O que são TAGs?
 
 • tags utilizadas na demonstração
     - exemplos:
-        a) <strong></strong>
-        b) <hr/>
+        a) <strong></strong> --> faz com que um elemento tenha fonte em negrito
+        b) <hr/> --> linha horizontal: não há conteúdo
         c) <p>Qualquer texto não foi mal-digitado</p>
+        d) <u></u> --> texto sublinhado
+        e) ol e ul --> listas ordenada e não-ordenada, respectivamente
+
 • a maior parte das tags possuem abertura e fechamento
     - com exceção da tag hr, br e tags que representam inputs
-
-
 
 Atributos
 ¨¨¨¨¨¨¨¨¨
