@@ -11,3 +11,26 @@ O que é HTML e CSS?
 
 
 Software que irá ser utilizado: VSCode (Visual Studio Code)
+
+O que são TAGs?
+¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨
+• existem tags inseridas no HTML, semelhantes às caixas
+• uma das tags mais utilizadas são headings (<h1></h1>)
+    - variadas de 1 a 6
+    - quanto maior o número, menor a tag
+
+• tags utilizadas na demonstração
+    - exemplos:
+        a) <strong></strong>
+        b) <hr/>
+        c) <p>Qualquer texto não foi mal-digitado</p>
+• a maior parte das tags possuem abertura e fechamento
+    - com exceção da tag hr, br e tags que representam inputs
+
+
+
+Atributos
+¨¨¨¨¨¨¨¨¨
+
+Estrutura básica
+¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨
