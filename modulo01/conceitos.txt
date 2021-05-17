@@ -32,6 +32,12 @@ O que são TAGs?
 
 Atributos
 ¨¨¨¨¨¨¨¨¨
+tags que possuem características especiais
+podemos observar várias delas, mas cada tag específica possui um atributo em específico, como:
+-- img: possui src
+-- a: possui href
+-- podemos combiná-los, inserindo link, por meio de uma imagem, por exemplo
+
 
 Estrutura básica
 ¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨
