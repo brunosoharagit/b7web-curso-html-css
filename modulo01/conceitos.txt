@@ -1,0 +1,13 @@
+O que é HTML e CSS?
+¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨
+• HTML - estruturação da página web - código estruturacional
+• CSS - estilização da página web - estilização
+• Ambos trabalham juntos para aplicar a conversão do site
+
+--> Navegador traduz o código HTML
+
+--> botão "inspecionar": mostra as abas de funcionamento de uma página
+    - pega e organiza, de forma legível, a estruturação do site, através da aba "Elements" (ou "Elementos")
+
+
+Software que irá ser utilizado: VSCode (Visual Studio Code)
