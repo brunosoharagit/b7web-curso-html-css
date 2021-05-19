@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-image: linear-gradient(to left, #599684, #05414d);
+    padding: 30px;
+    height: auto;
+    width: 100%;
+    position: fixed;
+}
+
+header img {
+    padding-left: 5%;
+}
+
+header ul {
+    display: inline;
+}
+
+header ul li {
+    float: right;
+    padding-right: 100px;
+    padding-top: 25px;
+}
+
+ul li a {
+    padding: 14px 10px;
+    display: inline;
+    color: #fff;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    opacity: 0.3;  
+}
+
+.main-section {
+    color: #fff;
+    background: rgba(13, 62, 75, 0.7);
+
+    height: auto;
+    width: auto;
+
+    padding: 15%;  
+    text-align: justify;
+}
+
+.main-section h1{
+    padding-top: 5%;
+    font-size: 50px;
+}
+
+.main-section .text .description p{
+    padding: 5%;
+    font-size: 25px;
+}
+
+.about {
+    background-image: linear-gradient(to right, #8878c4, #1389ce);
+    height: 1000px;
+    width: auto;
+    padding: 10%;
+}
+
+.about .title {
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+}
+
+.text-section {
+    color: #fff;
+}
+
+.text-section .section-class {
+    float: left;
+    text-align:start;
+    justify-content: center;
+}
+
+.text-section .section-id {
+    float: right;
+    text-align: end;
+    justify-content: center;
+}
+
+footer {
+    background-color: #446655;
+    padding: 5%;
+    height: auto;
+    width: auto;
+}
