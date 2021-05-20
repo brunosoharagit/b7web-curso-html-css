@@ -10,10 +10,12 @@ header {
     height: auto;
     width: 100%;
     position: fixed;
+    z-index: 11;
 }
 
 header img {
     padding-left: 5%;
+    animation: fadeIn ease 1s;
 }
 
 header ul {
@@ -31,6 +33,7 @@ ul li a {
     display: inline;
     color: #fff;
     text-decoration: none;
+    animation: fadeIn ease 1s;
 }
 
 ul li a:hover {
@@ -51,11 +54,18 @@ ul li a:hover {
 .main-section h1{
     padding-top: 5%;
     font-size: 50px;
+    animation: fadeIn ease 1s;
 }
 
 .main-section .text .description p{
     padding: 5%;
     font-size: 25px;
+    animation: fadeIn ease 1s;
+}
+
+@keyframes fadeIn{
+    0%{opacity: 0}
+    100%{opacity: 1}
 }
 
 .about {
@@ -75,6 +85,10 @@ ul li a:hover {
     color: #fff;
 }
 
+.text-section img {
+    border-radius: 40px;    
+}
+
 .text-section .section-class {
     float: left;
     text-align:start;
@@ -92,4 +106,34 @@ footer {
     padding: 5%;
     height: auto;
     width: auto;
+}
+
+.another-references {
+    padding: 5% 2% 10%;
+    height: auto;
+    width: auto;
+}
+
+.another-references h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+.another-references .text{
+    display: inline;
+}
+
+.another-references .text .example1{
+    float: left;
+    text-align: start;
+}
+
+.another-references .text .example2{
+    float: right;
+    text-align: end;
+}
+
+.another-references .text .example1 p,
+.another-references .text .example2 p{
+    font-size: 15px;
 }
