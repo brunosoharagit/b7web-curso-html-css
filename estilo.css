@@ -1,0 +1,88 @@
+/*#region DEFAULT SETTINGS*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/*#endregion */
+
+/*#region HEADER*/
+header {
+    padding: 3%;
+
+    height: auto;
+    width: auto;
+
+    background-image: linear-gradient(to right, #7682c1, #5fd35f);
+}
+
+header .logo {
+    position: absolute;
+    top: 5px;
+    width: 40%;
+    float: left;
+}
+
+header .menu {
+    position: relative;
+    width: 60%;
+    float: inline-end;
+    top: -10px;
+    left: 150px;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu ul li {
+    padding-left: 5%;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.active {
+    background-color: rgba(0,0,0,0.4);
+}
+
+.menu ul li a:hover {
+    opacity: 0.3;
+    transition: 500ms;
+}
+
+
+/*#endregion */
+
+/*#region MAIN*/
+.main {
+    padding: 5%;
+
+    height: auto;
+    width: auto;
+
+    background-color: #333;
+    color: #fff;
+}
+
+.main h1 {
+    font-size: 40px;
+}
+/*#endregion */
+
+
+/*#region ABOUT-DATA-AOS*/
+.about-data-aos {
+    padding: 5%;
+}
+
+.about-data-aos .title {
+    text-align: center;
+    font-size: 40px;
+}
+/* #endregion */
