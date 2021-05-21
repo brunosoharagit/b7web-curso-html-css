@@ -75,14 +75,29 @@ header .menu {
 }
 /*#endregion */
 
-
 /*#region ABOUT-DATA-AOS*/
 .about-data-aos {
     padding: 5%;
+    height: auto;
+    width: auto;
+
+    background-color: #aaa;
 }
 
 .about-data-aos .title {
     text-align: center;
     font-size: 40px;
+}
+/* #endregion */
+
+/* #region ANOTHER-RESOURCES */
+.another-resources {
+    padding: 5%;
+    font-size: 30px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
 }
 /* #endregion */
