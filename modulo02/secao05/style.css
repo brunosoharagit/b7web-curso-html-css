@@ -1,0 +1,160 @@
+/*#region DEFAULT SETTINGS */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+/*#endregion */
+
+/*#region Header*/
+header {
+    padding: 4%;
+
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(10,118,129,1) 100%); 
+    height: auto;
+    width: auto;
+}
+
+header ul {
+    float: right;
+    padding-right: 4%;
+}
+
+header ul li{
+    font-size: 20px;
+    display: inline;
+    padding-right: 60px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+header ul li a:hover{
+    opacity: 0.5;
+    transition: 500ms;
+    text-shadow: 3px 3px 3px #000;
+}
+/*#endregion */
+
+section {
+    padding: 4%;
+}
+
+/*#region GENERAL */
+.general {
+    background-color: #45d0ca;
+    color: #fff;
+}
+
+.general h1 {
+    font-size: 40px;
+    padding-left: 100px;
+    text-shadow: 2px 2px 2px #000;
+}
+
+.general p {
+    padding: 25px;
+    text-align: justify;
+    text-shadow: 2px 2px 2px #000;
+}
+/*#endregion */
+
+/*#region EXAMPLES */
+.examples .title h1{
+    text-align: center;
+    box-shadow: 1px 1px 1px #fff;
+    font-size: 40px;
+}
+
+.examples .grid {
+    padding: 5%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.solid-circle{
+    height: 100px;
+    width: 100px;
+    background-color: #da9c32;
+    
+    border-radius: 50%; 
+}
+
+.solid-circle:hover{
+    border: 2px solid #000;
+    transition: 0.3s;
+}
+
+.dotted-circle{
+    height: 100px;
+    width: 100px;
+    background-color: #da9c32;
+
+    border-radius: 50%;
+}
+
+.dotted-circle:hover{
+    border: 2px dotted #000;
+    transition: 0.3s;
+}
+
+.dashed-circle{
+    height: 100px;
+    width: 100px;
+    background-color: #da9c32;
+
+    border-radius: 50%;
+}
+
+.dashed-circle:hover{
+    border: 2px dashed #000;
+    transition: 0.3s;
+}
+
+.doubled-circle{
+    height: 100px;
+    width: 100px;
+    background-color: #da9c32;
+
+    border-radius: 50%;
+}
+
+.doubled-circle:hover{
+    border: 2px double #000;
+    transition: 0.3s;
+}
+
+.text h3{
+    text-align: left;
+    padding-left: 18px;
+}
+/*#endregion */
+
+
+/*#region CODE EXAMPLE*/
+.code-example{
+    background-color: #d8b5d1;
+    color: #fff;
+}
+
+.code-example .title h1 {
+
+}
+
+.solid-square{
+    height: 200px;
+    width: 200px;
+    background-color: #291dea;
+
+    border: 5px solid #999;
+    /*Sintaxe
+      border: <tamanho> <tipo> <cor>   
+    */
+}
+/*#endregion */
