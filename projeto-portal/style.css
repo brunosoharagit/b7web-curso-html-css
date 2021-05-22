@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+    padding: 2rem;
+    background-color: #333;
+}
+
+header .menu {
+    display: inline;
+}
+
+/* #region DROPDOWN 1 */
+header .menu .dropdown1 .dropbtn1 {
+    background-color: transparent;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+header .menu .dropdown1 .dropbtn1:hover {
+    background-color: rgba(255,255,255,0.4);
+    transition: 1.5s;
+}
+
+header .menu .dropdown1 {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content1 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content1 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    animation: translateX ease-in-out 1000ms forwards;
+}
+
+@keyframes translateX {
+    0% {
+        opacity: 0;
+        transform: translateX(60px);
+    }
+        
+    80% {
+        transform: translateX(-5px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.dropdown-content1 a:hover {background-color: #e2e2e2; transition: 1s;}
+
+.dropdown1:hover .dropdown-content1 {
+    display: block;
+}
+
+/* #endregion */
