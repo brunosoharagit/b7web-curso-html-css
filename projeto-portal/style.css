@@ -14,6 +14,7 @@ header {
 
 header .menu {
     display: inline;
+    height: 65%;
 }
 
 /* #region DROPDOWN 1 */
@@ -27,7 +28,7 @@ header .menu .dropdown1 .dropbtn1 {
 }
 
 header .menu .dropdown1 .dropbtn1:hover {
-    background-color: rgba(255,255,255,0.4);
+    background-color: rgba(127,127,127,0.4);
     transition: 1.5s;
 }
 
