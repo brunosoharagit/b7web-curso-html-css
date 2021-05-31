@@ -91,4 +91,28 @@ header ul li a:hover{
 .example h1{
     font-size: 45px;
 }
+
+.example .square-lists{
+    display: flex;
+}
+
+.example .square-lists .squares{
+    display: flex;
+}
+
+.example .square-lists .squares2{
+    display: flex;
+}
+
+.example .square-1{
+    height: 400px;
+    width: 100px;
+    background-color: #262a2d;
+}
+
+.example .square-2{
+    height: 100px;
+    width: 400px;
+    background-color: #262a2d;
+}
 /* #endregion */
