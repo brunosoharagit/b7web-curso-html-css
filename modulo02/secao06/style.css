@@ -29,3 +29,25 @@ header ul li a:hover {
     transition: 200ms;
 }
 /* #endregion */
+
+/* #region CONTEXTS */
+.context {
+    background-color: #987ebc;
+    color: #eee;
+    padding: 6% 6%;
+    height: 400px;
+}
+
+.context h1 {
+    text-align: center;
+    padding-bottom: 1rem;    
+}
+
+.context p{
+    text-align: center;
+}
+/* #endregion */
+
+/* #region EXAMPLE  */
+
+/* #endregion */
