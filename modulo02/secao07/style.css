@@ -116,3 +116,34 @@ header ul li a:hover{
     background-color: #262a2d;
 }
 /* #endregion */
+
+/* #region TIPS */
+.tips {
+    margin: 0;
+    box-sizing: border-box;
+
+    background-color: #d3d4d5;
+}
+
+.tips .title {
+    padding: 7%;
+    text-align: center;
+}
+
+.tips .title h1 {
+    font-size: 40px;
+}
+
+.tips .square {
+    height: 400px;
+    width: 400px;
+
+    background-color: #e3e3e3;
+    margin: 5%;
+    border: 5px dotted #333;
+}
+
+.tips .description {
+    padding: 5%;
+}
+/* #enderegion */
