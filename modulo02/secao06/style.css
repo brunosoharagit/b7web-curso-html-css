@@ -60,4 +60,18 @@ header ul li a:hover {
 .example {
     padding: 4%;
 }
+
+.example .margin-example{
+    border: 5px solid #003300;
+    margin: 10px 50px;
+}
+
+.example .spacement{
+    padding-bottom: 40px;
+}
+
+.example .padding-example{
+    border: 5px solid #000099;
+    padding: 10px 50px;
+}
 /* #endregion */
