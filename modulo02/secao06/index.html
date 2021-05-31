@@ -9,6 +9,8 @@
 
     <!--#region libraries-->
     <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!--#endregion-->
 </head>
 
@@ -17,16 +19,16 @@
         <div class="menu">
             <ul type="none">
                 <li>
-                    <a href="#">Contexto</a>
+                    <a href="#" data-aos="zoom-in" data-aos-duration="1000">Contexto</a>
                 </li>
                 <li>
-                    <a href="#example">Exemplos de uso</a>
+                    <a href="#example" data-aos="zoom-in" data-aos-duration="2000">Exemplos de uso</a>
                 </li>
                 <li>
-                    <a href="#moreInfos">Informações adicionais</a>
+                    <a href="#moreInfos" data-aos="zoom-in" data-aos-duration="3000">Informações adicionais</a>
                 </li>
                 <li>
-                    <a href="../menu/principal.html">Voltar</a>
+                    <a href="../menu/principal.html" data-aos="zoom-in" data-aos-duration="4000">Voltar</a>
                 </li>
             </ul>
         </div>
@@ -105,6 +107,11 @@
             </p>
         </p>
     </div>
+
+
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

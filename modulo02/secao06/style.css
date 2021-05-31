@@ -26,7 +26,7 @@ header ul li a{
 
 header ul li a:hover {
     color: #999;
-    transition: 200ms;
+    transition: 1000ms;
 }
 /* #endregion */
 
