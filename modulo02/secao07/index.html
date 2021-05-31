@@ -8,10 +8,55 @@
 
     <!--#region libraries-->
     <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!--#endregion-->
 
 </head>
 <body>
-    
+    <header data-aos="fade-down" data-aos-duration="2000">
+        <ul type="none">
+            <li>
+                <a href="#">Contexto</a>
+            </li>
+            <li>
+                <a href="#">Exemplos</a>
+            </li>
+            <li>
+                <a href="#">Formas de utilizar valores</a>
+            </li>
+            <li>
+                <a href="../menu/principal.html">Voltar</a>
+            </li>
+        </ul>
+    </header>
+
+    <section class="about">
+        <div class="title">
+            <h1>Height e Width - Contexto</h1>
+        </div>
+        <div class="description">
+            <p>
+                Esta seção irá apresentar como utilizar medidas de altura e largura, <br>
+                como mostrado nas figuras a seguir:  
+            </p>
+            <div class="squares">
+                <div class="square-1" data-aos="fade-right" data-aos-duration="3000">
+                    Altura
+                </div>
+                <div class="square-2" data-aos="fade-left" data-aos-duration="3000">
+                    Largura
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="example">
+        <h1>Exemplos</h1>
+    </section>
+
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
