@@ -58,6 +58,7 @@ header ul li a:hover {
 
 /* #region EXAMPLE  */
 .example {
+    background-color: #e0c3ef;
     padding: 4%;
 }
 
@@ -67,11 +68,23 @@ header ul li a:hover {
 }
 
 .example .spacement{
-    padding-bottom: 40px;
+    padding-bottom: 50px;
 }
 
 .example .padding-example{
     border: 5px solid #000099;
     padding: 10px 50px;
+}
+/* #endregion */
+
+/* #region MORE-INFORMATIONS */
+.more-infos {
+    padding: 6%;
+}
+
+.more-infos h1 {
+    text-align: center;
+    padding: 10px 100px;
+    /*Leitura: 10px -> cima e baixo; 20px -> direita e esquerda*/
 }
 /* #endregion */
