@@ -7,6 +7,7 @@
 /* #region HEADER  */
 header {
     padding: 4rem;
+    background-image: linear-gradient(to right, #4edd5d, #8dce4a);
 }
 
 header ul {
@@ -20,5 +21,21 @@ header ul li {
 header ul li a {
     color: #888;
     text-decoration: none;
+    padding-right: 15px;
+}
+
+header ul li a:hover {
+    color: #eee;
+    transition: 500ms;
+}
+/* #endregion */
+
+/* #region TEXT */
+.text {
+    padding: 5%;
+}
+
+.text h1 {
+
 }
 /* #endregion */
