@@ -33,7 +33,6 @@ header ul li a:hover {
 }
 /* #endregion */
 
-
 /* #region ABOUT LINKS */
 .about-links{
     background-color: #d5bae3;
@@ -60,4 +59,8 @@ a {
     color: #fff;
     text-decoration: none;
 }
+/* #endregion */
+
+/* #region EXAMPLES */
+
 /* #endregion */
