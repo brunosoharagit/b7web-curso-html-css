@@ -62,5 +62,23 @@ a {
 /* #endregion */
 
 /* #region EXAMPLES */
+.examples {
+    padding: 5%;
+}
 
+.examples .title{
+    text-align: center;
+}
+
+.examples .title h1 {
+    font-size: 45px;
+}
+
+/* #endregion */
+
+/* #region VISITED-HOVER-LINKS */
+.visited-hover-links {
+    padding: 6%;
+    background-color: #befede;
+}
 /* #endregion */
