@@ -2,3 +2,72 @@
     margin: 0;
     padding: 0;
 }
+
+header {
+    background-color: #444;
+    width: 100%;
+    padding: 3%;
+
+    font-family: verdana, sans-serif;
+}
+
+header ul {
+    display: flex;
+}
+
+header ul li {
+    padding-right: 10px;
+}
+
+header ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+header ul li a:hover {
+    color: #999;
+    transition: 500ms;
+}
+
+
+.text {
+    padding: 5%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.text h1 {
+    font-size: 40px;
+}   
+
+.text p {
+    padding-top: 30px;
+}
+
+.first {
+    text-align: justify;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    color: #00f;
+}
+
+.first:hover {
+    background-image: linear-gradient(to right, #f3d4c4, #d3cc0a, #a3d2c1);
+}
+
+.second {
+    text-align: center;
+    font-weight: lighter;
+    color: #5757ff;
+}
+
+.third {
+    text-align: right;
+    font-weight: bolder;
+    color: #4343ff;
+}
