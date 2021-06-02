@@ -77,6 +77,24 @@ a:hover {
     color: #4343ff;
 }
 
+.fourth {
+    text-transform: uppercase;
+    /* text-transform: uppercase || lowercase */
+    word-spacing: 5px;
+    line-height: 30px;
+}
+
 .fifth p{
     box-shadow: 10px 10px 10px #000;
+}
+
+.sixth {
+    text-transform: lowercase;
+    letter-spacing: 5px;
+    text-align: justify;
+}
+
+.seventh p {
+    color: #aaaaff;
+    text-shadow: 2px 2px 2px #000;
 }
