@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway';
+    font-weight: 300;
+}
+
+header {
+    padding: 2%;
+    background-image: linear-gradient(to right, #a9b9c9, #9a9b9c, #f9d9e9);
+}
+
+header ul {
+    float: right;
+    display: flex;
+}
+
+header ul li {
+    padding-right: 15px;
+}
+
+header ul li a {
+    color: #5c5c5c;
+    text-decoration: none;
+}
+header ul li a:hover {
+    color: #9a9b9c;
+    transition: 500ms;
+}
