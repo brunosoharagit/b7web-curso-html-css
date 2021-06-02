@@ -7,6 +7,9 @@
 /* #region HEADER */
 header {
     padding: 4% 3.5rem;
+    background-image: linear-gradient(to right, #e3d4c5, #a1b2c3);
+
+    height: auto;
 }
 
 header ul {
@@ -20,6 +23,6 @@ header ul li a {
 
 header ul li a:hover {
     color: #888;
-    transition: 500ms;
+    transition: 500ms;  
 }
 /* #endregion */
