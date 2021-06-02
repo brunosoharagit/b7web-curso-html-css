@@ -45,6 +45,7 @@ header ul li a:hover {
 
 .first {
     text-align: justify;
+    font-size: 25px;
 }
 
 a {
@@ -62,6 +63,7 @@ a:hover {
 
 .second {
     text-align: center;
+    font-size: 20px;
     font-weight: lighter;
     color: #5757ff;
 }
@@ -69,5 +71,6 @@ a:hover {
 .third {
     text-align: right;
     font-weight: bolder;
+    font-size: 15px;
     color: #4343ff;
 }
