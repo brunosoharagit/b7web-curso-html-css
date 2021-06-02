@@ -98,3 +98,19 @@ a:hover {
     color: #aaaaff;
     text-shadow: 2px 2px 2px #000;
 }
+
+.fonts {
+    padding: 5%;
+}
+
+.fonts .primeiro {
+    font-family: 'Raleway';
+}
+
+.segundo {
+    font-family: 'Fredoka One';
+}
+
+.terceiro {
+    font-family: 'Sigmar One';
+}
