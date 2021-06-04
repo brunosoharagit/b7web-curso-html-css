@@ -97,6 +97,8 @@ header ul li a:hover {
     border-radius: 5rem;
 
     background-image: url('/modulo03/secao04/images/welcome-bgi.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .login-form input {
@@ -143,7 +145,9 @@ header ul li a:hover {
 
     border-radius: 5rem;
 
-    background-image: url('/modulo03/secao04/images/welcome-bgi.jpg');
+    background-image: url('/modulo03/secao04/images/959295.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .signup-form input {
