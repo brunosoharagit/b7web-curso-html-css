@@ -131,3 +131,49 @@ header ul li a:hover {
 }
 
 /* #endregion */
+
+/* #region SINGUP-FORM */
+.signup-form {
+    margin: 5%;
+    padding: 5%;
+
+    width: auto;
+    color: #fff;
+    text-shadow: 3px 3px 3px #000;
+
+    border-radius: 5rem;
+
+    background-image: url('/modulo03/secao04/images/welcome-bgi.jpg');
+}
+
+.signup-form input {
+    height: 50px;
+    width: 200px;
+
+    color: #fff;
+
+    background-color: #999;
+    border: 1px solid transparent;
+    border-radius: 20px;
+
+    font-size: 20px;
+}
+
+.signup-form input[type=button]{
+    margin-top: 10%;
+}
+
+.signup-form input:hover {
+    background-color: #ddd;
+    transition: 500ms;
+}
+
+.signup-form h1 {
+    font-size: 35px;
+    text-align: center;
+}
+
+.signup-form p {
+    text-align: center;
+}
+/* #endregion */
