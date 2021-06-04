@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,14 +10,20 @@
     <!-- #region LIBRARIES -->
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet"> 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
     <!-- #endregion -->
 </head>
+
 <body>
     <header>
         <ul type="none">
             <li>
-                <a href="#">Entrar</a>
+                <a href="#login">Entrar</a>
             </li>
             <li>
                 <a href="#">Cadastrar</a>
@@ -27,5 +34,35 @@
 
         </ul>
     </header>
+
+    <section class="welcome">
+        <h1 data-aos="fade-right" data-aos-once="true" data-aos-duration="1500">Formulários de Login e Cadastro</h1><br>
+        <p data-aos="fade-left" data-aos-once="true" data-aos-duration="1500">
+            Veja alguns exemplos de formulários inseridos. <br>
+        </p>
+        <div class="arrow-down-jump">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <section class="login-form" id="login" data-aos="zoom-out" data-aos-once="true" data-aos-duration="1500">
+        <h1>Entrar no nosso portal</h1><br>
+        <p>
+            Entre no site, caso você já tenha cadastro em nosso portal.<br>
+            <input type="button" value="Entrar">
+        </p>
+    </section>
+
+    <section class="signup-form">
+        <h1>Cadastrar no nosso portal</h1><br>
+        <p>
+            <input type="button" value="Cadastrar">
+        </p>
+    </section>
+
+    <script>
+        AOS.init();
+    </script>
 </body>
+
 </html>

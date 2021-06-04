@@ -6,8 +6,10 @@
 
 /* #region HEADER  */
 header {
+    width: auto;
+
     padding: 20px;
-    background-image: linear-gradient(to right, #f02caa, #0fc2ff,#3dcca2, #9df1f9);
+    background-image: linear-gradient(to right, #9a9a9a, #7d7d7d,#808080, #3f3f3f);
 }
 
 header ul li {
@@ -16,9 +18,9 @@ header ul li {
 }
 
 header ul li a {
-    color: #000;
+    color: #444;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: lighter;
 }
 
@@ -36,4 +38,96 @@ header ul li a:hover {
         font-size: 15px;
     }
 }
+/* #endregion */
+
+/* #region WELCOME  */
+.welcome {
+    width: auto;
+    padding: 5%;
+    color: #fff;
+
+    /* #region BACKGROUND-IMAGE */
+    background-image: url('/modulo03/secao04/images/mountain-lake-nature-forest-landscape-clouds-scenery-4K-171.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* #endregion */
+}
+
+.welcome h1 {
+    font-size: 5rem;
+    font-weight: 100;
+    text-align: center; 
+    text-shadow: 3px 3px 3px #000;
+}
+
+.welcome p {
+    font-size: 35px;
+    text-align: center;
+    text-shadow: 3px 3px 3px #000;
+}
+
+.welcome .arrow-down-jump {
+    margin-top: 20%;
+    text-align: center;
+
+    font-size: 40px;
+    animation: arrowJump 500ms infinite alternate;
+}
+
+@keyframes arrowJump {
+    0% {
+        transform: translateY(-25%);
+    }
+
+    100% {
+        transform: translateY(-50%);
+    }
+}
+/* #endregion */
+
+/* #region LOGIN-FORM  */
+.login-form {
+    margin: 5%;
+    padding: 5%;
+
+    width: auto;
+    color: #fff;
+    text-shadow: 3px 3px 3px #000;
+
+    border-radius: 5rem;
+
+    background-image: url('/modulo03/secao04/images/welcome-bgi.jpg');
+}
+
+.login-form input {
+    height: 50px;
+    width: 200px;
+
+    color: #fff;
+
+    background-color: #999;
+    border: 1px solid transparent;
+    border-radius: 20px;
+
+    font-size: 20px;
+}
+
+.login-form input[type=button]{
+    margin-top: 10%;
+}
+
+.login-form input:hover {
+    background-color: #ddd;
+    transition: 500ms;
+}
+
+.login-form h1 {
+    font-size: 35px;
+    text-align: center;
+}
+
+.login-form p {
+    text-align: center;
+}
+
 /* #endregion */
