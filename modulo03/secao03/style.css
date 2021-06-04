@@ -40,3 +40,30 @@ header ul li a:hover {
     padding: 5%;
 }
 /* #endregion */
+
+/* #region TABLE-CSS  */
+.table-css {
+    padding: 5%;
+}
+
+.table-css table {
+    width: 600px;
+    padding: 5%;
+}
+
+.table-css table th {
+    border: 2px solid #ddd;
+    text-align: center;
+    background-color: #ddd;
+}
+
+.table-css table td {
+    border-bottom: 2px solid rgba(0,0,0,0.5);
+    text-align: center;
+}
+
+.table-css table tr:hover {
+    background-color: #aaa;
+    transition: 1000ms;
+}
+/* #endregion */
