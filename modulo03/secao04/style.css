@@ -6,10 +6,14 @@
 
 /* #region HEADER  */
 header {
-    width: auto;
+    width: 100%;
+
+    z-index: 11;
+    position: fixed;
+
 
     padding: 20px;
-    background-image: linear-gradient(to right, #9a9a9a, #7d7d7d,#808080, #3f3f3f);
+    background-image: linear-gradient(to right, #5fdad2, #98dcd6,#65f0b9, #65cbc6);
 }
 
 header ul li {
