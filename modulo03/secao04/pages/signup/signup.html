@@ -18,19 +18,50 @@
     <section class="signup">
         <h1>Área de Cadastro</h1>
         <form>
-            <label for="name">Nome</label>
-            <input type="text" placeholder="Digite seu nome">
-            <label for="lastname">Sobrenome</label>
-            <input type="text" placeholder="Digite seu sobrenome">
-
-            <input type="radio" value="genero">Masculino
-            <input type="radio" value="genero">Feminino
-
-            <input type="checkbox">
-            <input type="checkbox">
-            <input type="checkbox">
-
-            <input type="submit" value="Cadastrar" />
+            <ul type="none" class="flex-outer"> 
+                <li>
+                    <label for="first-name">Nome: </label>
+                    <input type="text" name="first-name" id="first-name" placeholder="Digite seu nome.">
+                </li>
+                <li>
+                    <label for="last-name">Sobrenome: </label>
+                    <input type="text" name="last-name" id="last-name" placeholder="Digite seu sobrenome.">
+                </li>
+                <li>
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email" placeholder="Digite seu e-mail.">
+                </li>
+                <li>
+                    <label for="confirm-email">Confirmar E-mail</label>
+                    <input type="email" name="confirm-email" id="confirm-email" placeholder="Confirme seu e-mail.">
+                </li>
+                <li>
+                    <label for="password">Senha</label>
+                    <input type="password" name="password" id="password" placeholder="Digite uma senha nova">
+                </li>   
+                <li>
+                    <label for="confirm-password">Confirmar senha</label>
+                    <input type="password" name="confirm-password" id="confirm-password" placeholder="Confirme sua senha nova">
+                </li>
+                <li>
+                    <label for="cellphone">Celular / Telefone</label>
+                    <input type="tel" name="cellphone" id="cellphone" placeholder="Digite um número de telefone / celular">
+                </li>
+                <li>
+                    <label for="genero">Gênero</label>
+                    <input type="radio" name="genero">
+                    <label for="genero"><small>Masculino</small></label>
+                    <input type="radio" name="genero">
+                    <label for="genero"><small>Feminino</small></label>
+                </li>
+                <li>
+                    <label for="birthday">Data de nascimento</label>
+                    <input type="date" id="birthday" name="birthday">
+                </li>
+                <li> 
+                    <input type="submit" value="Cadastrar">
+                </li>
+            </ul>
         </form>
     </section>
 </body>
