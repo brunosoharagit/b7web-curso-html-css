@@ -1,0 +1,23 @@
+* {
+    margin:0;
+    padding:0;
+    font-family: 'Nunito', sans-serif;
+}
+
+.signup {
+    margin: 15%;
+    padding: 5%;
+    height: auto;
+    width: auto;
+
+    border: 2px solid #000;
+    border-radius: 25px;
+    box-shadow: 2px 2px 2px #333;
+}
+
+.signup h1 {
+    font-size: 3rem;
+    font-weight: lighter;
+
+    text-shadow: 2px 2px 2px #444;
+}
