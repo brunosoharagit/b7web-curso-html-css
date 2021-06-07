@@ -47,7 +47,7 @@ header ul li a:hover {
 /* #region WELCOME  */
 .welcome {
     width: auto;
-    padding: 5%;
+    padding: 7%;
     color: #fff;
 
     /* #region BACKGROUND-IMAGE */
@@ -58,7 +58,7 @@ header ul li a:hover {
 }
 
 .welcome h1 {
-    font-size: 5rem;
+    font-size: 50px;
     font-weight: 100;
     text-align: center; 
     text-shadow: 3px 3px 3px #000;
@@ -71,7 +71,7 @@ header ul li a:hover {
 }
 
 .welcome .arrow-down-jump {
-    margin-top: 20%;
+    margin-top: 10%;
     text-align: center;
 
     font-size: 40px;
@@ -98,29 +98,29 @@ header ul li a:hover {
     color: #fff;
     text-shadow: 3px 3px 3px #000;
 
-    border-radius: 5rem;
+    border-radius: 10px;
 
     background-image: url('/modulo03/secao04/images/welcome-bgi.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+
 }
 
-.login-form a {
-    background-color: rgba(0, 0, 0, 0.5);
-    color: #fff;
-    text-decoration: none; 
+.login-form input {
+    height: 50px;
+    width: 150px;
+
     font-size: 20px;
 
-    border-radius: 50px;
+    color: #fff;
+    background-color: rgba(0,0,0,0.5);
+    border: 1px solid transparent;
+    border-radius: 10px;
 }
 
-.login-form h1 {
-    font-size: 35px;
-    text-align: center;
-}
-
-.login-form p {
-    text-align: center;
+.login-form input:hover {
+    background-color: rgba(127, 127, 127, 0.5);
+    transition: 500ms;
 }
 
 /* #endregion */
@@ -134,28 +134,28 @@ header ul li a:hover {
     color: #fff;
     text-shadow: 3px 3px 3px #000;
 
-    border-radius: 5rem;
+    border-radius: 10px;
 
     background-image: url('/modulo03/secao04/images/959295.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.signup-form a {
-    background-color: rgba(0, 0, 0, 0.5);
-    color: #fff;
-    text-decoration: none; 
+.signup-form input {
+    height: 50px;
+    width: 150px;
+
     font-size: 20px;
 
-    border-radius: 50px;
+    color: #fff;
+    background-color: rgba(0,0,0,0.5);
+    border: 1px solid transparent;
+    border-radius: 10px;
 }
 
-.signup-form h1 {
-    font-size: 35px;
-    text-align: center;
+.signup-form input:hover {
+    background-color: rgba(127, 127, 127, 0.5);
+    transition: 500ms;
 }
 
-.signup-form p {
-    text-align: center;
-}
 /* #endregion */
