@@ -10,60 +10,82 @@
     <!-- #region LIBRARIES -->
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
     <!-- #endregion -->
 </head>
 
 <body>
-    <section class="signup">
-        <h1>Área de Cadastro</h1>
-        <form>
-            <ul type="none" class="flex-outer"> 
+    <section class="signup" data-aos="fade-up" data-aos-once="true" data-aos-duration="1500">
+        <h1>Cadastro</h1>
+        <form action="/login/login.html">
+            <h2>Informações pessoais</h2>
+            <ul type="none" class="personal">
                 <li>
-                    <label for="first-name">Nome: </label>
-                    <input type="text" name="first-name" id="first-name" placeholder="Digite seu nome.">
+                    <label>
+                        Nome completo: <br>
+                        <input type="text" name="fullname" placeholder="Digite seu nome completo">
+                    </label>
                 </li>
                 <li>
-                    <label for="last-name">Sobrenome: </label>
-                    <input type="text" name="last-name" id="last-name" placeholder="Digite seu sobrenome.">
+                    <label>
+                        Idade: <br>
+                        <input type="number" name="age" placeholder="Idade">
+                    </label>
+                </li>
+            </ul>
+            <h2>Endereço</h2>
+            <ul type="none" class="address">
+                <li>
+                    <label>
+                        Complemento: <br>
+                        <input type="text" name="street" placeholder="Nome da rua">
+                    </label>
                 </li>
                 <li>
-                    <label for="email">E-mail</label>
-                    <input type="email" name="email" id="email" placeholder="Digite seu e-mail.">
+                    <label>
+                        Número: <br>
+                        <input type="number" name="street_number" placeholder="Número">
+                    </label>
                 </li>
                 <li>
-                    <label for="confirm-email">Confirmar E-mail</label>
-                    <input type="email" name="confirm-email" id="confirm-email" placeholder="Confirme seu e-mail.">
+                    <label>
+                        Bairro: <br>
+                        <input type="text" name="district" placeholder="Bairro">
+                    </label>
                 </li>
                 <li>
-                    <label for="password">Senha</label>
-                    <input type="password" name="password" id="password" placeholder="Digite uma senha nova">
-                </li>   
-                <li>
-                    <label for="confirm-password">Confirmar senha</label>
-                    <input type="password" name="confirm-password" id="confirm-password" placeholder="Confirme sua senha nova">
+                    <label>
+                        Cidade: <br>
+                        <input type="text" name="city" placeholder="Cidade">
+                    </label>
                 </li>
                 <li>
-                    <label for="cellphone">Celular / Telefone</label>
-                    <input type="tel" name="cellphone" id="cellphone" placeholder="Digite um número de telefone / celular">
+                    <label>
+                        Estado: <br>
+                        <select name="state" id="state">
+                            <option value="Alagoas">AL</option>
+                            <option value="Sao Paulo">SP</option>
+                            <option value="Santa Catarina">SC</option>
+                            <option value=""></option>
+                            <option value=""></option>
+                        </select>
+                    </label>
                 </li>
+            </ul>
+            <ul type="none">
                 <li>
-                    <label for="genero">Gênero</label>
-                    <input type="radio" name="genero">
-                    <label for="genero"><small>Masculino</small></label>
-                    <input type="radio" name="genero">
-                    <label for="genero"><small>Feminino</small></label>
-                </li>
-                <li>
-                    <label for="birthday">Data de nascimento</label>
-                    <input type="date" id="birthday" name="birthday">
-                </li>
-                <li> 
-                    <input type="submit" value="Cadastrar">
+                    <button>Cadastrar</button>
                 </li>
             </ul>
         </form>
     </section>
+
+
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
