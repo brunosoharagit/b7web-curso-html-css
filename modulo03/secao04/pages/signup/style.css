@@ -38,6 +38,11 @@ input[type="number"]{
     height: 30px
 }
 
+input[type="date"]{
+    width: 150px;
+    height: 30px;
+}
+
 select {
     width: 80px;
     height: 30px;
