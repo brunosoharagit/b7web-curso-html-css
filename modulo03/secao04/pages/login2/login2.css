@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Nunito';
+}
+
+fieldset {
+    margin: 10%;
+    padding: 2%;
+    border: 3px solid #666;
+    border-radius: 40px;
+
+    box-shadow: 5px 5px 5px #000;
+}
+
+legend {
+    padding: 5px;
+    font-size: 50px;
+}
+
+label {
+    padding-left: 250px;
+    font-size: 30px;
+}
+
+input {
+    width: 500px;
+    height: 25px;
+
+    margin-left: 250px;
+
+    font-size: 15px;
+}
+
+button {
+    background-color: #000;
+    color: #fff;
+    height: 50px;
+    width: 150px;
+
+    margin-left: 430px;
+
+    border: 1px solid transparent;
+    border-radius: 35px;
+
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: rgba(127, 127, 127, 0.5);
+    color: #333;
+    transition: 500ms;
+}
