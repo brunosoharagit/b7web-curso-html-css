@@ -33,6 +33,11 @@ input {
     margin-left: 250px;
 
     font-size: 15px;
+    
+    border: 1px solid transparent;
+    border-radius: 5px;
+
+    padding: 4px;
 }
 
 button {
