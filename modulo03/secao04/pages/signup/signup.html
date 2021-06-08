@@ -19,72 +19,48 @@
 <body>
     <section class="signup" data-aos="fade-up" data-aos-once="true" data-aos-duration="1500">
         <h1>Cadastro</h1>
-        <form action="/login/login.html">
-            <h2>Informações pessoais</h2>
-            <ul type="none" class="personal">
-                <li>
-                    <label>
-                        Nome completo: <br>
-                        <input type="text" name="fullname" placeholder="Digite seu nome completo">
-                    </label>
-                </li>
-                <li>
-                    <label>
-                        Idade: <br>
-                        <input type="number" name="age" placeholder="Idade">
-                    </label>
-                </li>
-                <li>
-                    <label>
-                        Data de nascimento: <br>
-                        <input type="date" name="birthdate">
-                    </label>                    
-                </li>
-            </ul>
-            <h2>Endereço</h2>
-            <ul type="none" class="address">
-                <li>
-                    <label>
-                        Complemento: <br>
-                        <input type="text" name="street" placeholder="Nome da rua">
-                    </label>
-                </li>
-                <li>
-                    <label>
-                        Número: <br>
-                        <input type="number" name="street_number" placeholder="Número">
-                    </label>
-                </li>
-                <li>
-                    <label>
-                        Bairro: <br>
-                        <input type="text" name="district" placeholder="Bairro">
-                    </label>
-                </li>
-                <li>
-                    <label>
-                        Cidade: <br>
-                        <input type="text" name="city" placeholder="Cidade">
-                    </label>
-                </li>
-                <li>
-                    <label>
-                        Estado: <br>
-                        <select name="state" id="state">
-                            <option value="Alagoas">AL</option>
-                            <option value="Sao Paulo">SP</option>
-                            <option value="Santa Catarina">SC</option>
-                            <option value=""></option>
-                            <option value=""></option>
-                        </select>
-                    </label>
-                </li>
-            </ul>
-            <ul type="none">
-                <li>
-                    <button>Cadastrar</button>
-                </li>
-            </ul>
+        <form action="./login/login.html">
+            <label>
+                Nome completo: <br>
+                <input type="text" name="fullname" id="name" placeholder="Digite seu nome completo">
+            </label>
+            <label>
+                Idade: <br>
+                <input type="radio" name="age" id="age" value="18 - 25">
+                <label>18 a 25 anos.</label>
+
+                <input type="radio" name="age" id="age" value="26 - 30">
+                <label>26 a 30 anos.</label>
+
+                <input type="radio" name="age" id="age" value="18 - 25">
+                <label>31 a 35 anos.</label>
+
+                <input type="radio" name="age" id="age" value="18 - 25">
+                <label>36 a 40 anos.</label>
+            </label>
+            <label>
+                Gênero: <br>
+                <input type="radio" name="genre" value="female">
+                <label>Feminino</label>
+
+                <input type="radio" name="genre" value="male">
+                <label>Masculino</label>
+            </label>
+            <label>
+                Estado Civil: <br>
+                <select name="martial_status" id="civil">
+                    <option selected>-</option>
+                    <option value="single">Solteiro(a)</option>
+                    <option value="married">Casado(a)</option>
+                    <option value="divorced">Divorciado(a)</option>
+                    <option value="widowed">Viúvo(a)</option>
+                </select>
+            </label>
+            <label>
+                Carta de apresentação (opcional): <br>
+                <textarea cols="30" rows="10"></textarea>
+            </label>
+            <button>Cadastrar</button>
         </form>
     </section>
 
