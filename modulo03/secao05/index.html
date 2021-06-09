@@ -14,6 +14,14 @@
     <div class="container">
         <h1>Cadastro</h1>
         <form action="plataform_login.html">
+            <label>
+                Nome completo: <br>
+                <input type="text" name="name" id="name" placeholder="Seu nome completo." required minlength="10"> 
+            </label>
+            <label>
+                E-mail: <br>
+                <input type="email" name="email" id="email" placeholder="seuemail@email.com" pattern="^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$" required>
+            </label>
             <button>Cadastrar</button>
         </form>
     </div>
