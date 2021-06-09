@@ -4,44 +4,50 @@
     font-family: 'Nunito', sans-serif;
 }
 
-.signup {
-    margin: 10%;
+form {
+    padding: 10%;
+    margin: auto 40px;
+}
+
+fieldset {
     padding: 5%;
-
-    height: 50%;
-    width: auto;
-
-    border: 0.5px solid #000;
     border-radius: 50px;
-    box-shadow: 5px 5px 5px #000;
+
+    box-shadow: 3px 3px 3px #000;
 }
 
-.singup form{
-    display: flex;
+legend {
+    font-size: 50px;
+    padding-left: 5%;
 }
 
-.signup label {
-    display: block;
+label {
     margin-top: 10px;
+    display: block;
 }
 
-option {
+input {
     height: 30px;
-    width: 200px;
-    font-size: 15px;
-}
+    width: 300px;
 
-input[type="radio"] {
-    height: 10px;
-} 
-
-input [type="text"] {
-    width: 500px;
     font-size: 20px;
-    padding: 10px;
 }
 
-textarea {
-    width: 500px;
-    resize: none;
+button {
+    margin-top: 50px;
+
+    height: 50px;
+    width: 100px;
+
+    border: 1px solid transparent;
+    border-radius: 10px;
+
+    background-color: #000;
+    color: #fff;
+}
+
+button:hover {
+    background-color: #ccc;
+    color: #000;
+    transition: 500ms;
 }

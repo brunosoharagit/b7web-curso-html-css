@@ -17,52 +17,33 @@
 </head>
 
 <body>
-    <section class="signup" data-aos="fade-up" data-aos-once="true" data-aos-duration="1500">
-        <h1>Cadastro</h1>
-        <form action="./login/login.html">
+    <form action="/login/login.html" data-aos="fade-left" data-aos-once="true" data-aos-duration="1500">
+        <fieldset>
+            <legend>Cadastro</legend>
+
             <label>
                 Nome completo: <br>
-                <input type="text" name="fullname" id="name" placeholder="Digite seu nome completo">
+                <input type="text" name="name" id="name" placeholder="Digite seu nome completo."> 
             </label>
             <label>
-                Idade: <br>
-                <input type="radio" name="age" id="age" value="18 - 25">
-                <label>18 a 25 anos.</label>
-
-                <input type="radio" name="age" id="age" value="26 - 30">
-                <label>26 a 30 anos.</label>
-
-                <input type="radio" name="age" id="age" value="18 - 25">
-                <label>31 a 35 anos.</label>
-
-                <input type="radio" name="age" id="age" value="18 - 25">
-                <label>36 a 40 anos.</label>
+                E-mail: <br>
+                <input type="email" name="email" id="email" placeholder="Digite seu e-mail.">
             </label>
             <label>
-                Gênero: <br>
-                <input type="radio" name="genre" value="female">
-                <label>Feminino</label>
-
-                <input type="radio" name="genre" value="male">
-                <label>Masculino</label>
+                Senha: <br>
+                <input type="password" id="password" placeholder="Digite uma senha qualquer.">
             </label>
             <label>
-                Estado Civil: <br>
-                <select name="marital_status" id="civil">
-                    <option selected>-</option>
-                    <option value="single">Solteiro(a)</option>
-                    <option value="married">Casado(a)</option>
-                    <option value="divorced">Divorciado(a)</option>
-                    <option value="widowed">Viúvo(a)</option>
-                </select>
+                Confirmar senha: <br>
+                <input type="password" id="password" placeholder="Confirme sua senha criada.">
             </label>
             <label>
-                Carta de apresentação (opcional): <br>
-                <textarea cols="30" rows="10"></textarea>
+                Data de nascimento: <br>
+                <input type="date" id="date">
             </label>
             <button>Cadastrar</button>
-        </form>
-    </section>
+        </fieldset>
+    </form>
 
 
     <script>
