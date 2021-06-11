@@ -19,3 +19,12 @@ div {
 .example {
     color: #eeeeee;
 }
+
+.elements-inside {
+    background-color: #aaa;
+
+    height: 2in; 
+    width: 2in; 
+
+    /* in = inch = polegadas */
+}
