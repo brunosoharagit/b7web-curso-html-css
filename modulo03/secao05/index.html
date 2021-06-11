@@ -9,11 +9,13 @@
     <!-- #region LIBRARIES -->
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet"> 
     <!-- #endregion -->
 </head>
 <body>
-    <div class="container">
+    <div class="container" data-aos="fade-left" data-aos-duration="2000">
         <h1>Cadastro</h1>
         <form action="plataform_login.html">
             <label>
@@ -37,5 +39,9 @@
             <button>Cadastrar</button>
         </form>
     </div>
+
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
