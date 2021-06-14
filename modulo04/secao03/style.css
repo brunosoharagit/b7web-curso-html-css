@@ -41,3 +41,21 @@
     color: #fff;
     transition: 500ms;
 }
+
+h1 {
+    font-size: 15px;
+    color: red;
+}
+
+.box {
+    font-size: 30px;
+}
+
+.box h1 {
+    font-size: inherit;
+    color: inherit;
+}
+
+.box p {
+    color: inherit;
+}
