@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/*#region HEADERS */
+header {
+    padding: 4%;
+    background-image: linear-gradient(to right, #9302ff, #ba21ff);
+    color: #fff;
+}
+
+header ul {
+    display: flex;
+}
+
+header ul li {
+    padding-left: 20px;
+}
+
+header ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+header ul li a:hover {
+    color: #999;
+    transition: 1000ms;
+}
+/* #endregion */
+
+/* #region CONTEXTS */
+.context {
+    background-color: #987ebc;
+    color: #eee;
+    padding: 6% 6%;
+    height: auto;
+}
+
+.context h1 {
+    text-align: center;
+    padding-bottom: 1rem;    
+}
+
+.context p{
+    text-align: center;
+}
+
+.context .about{
+    margin: 5%;
+}
+
+.context h2{
+    text-align: center;
+}
+/* #endregion */
+
+/* #region EXAMPLE  */
+.example {
+    background-color: #e0c3ef;
+    padding: 4%;
+}
+
+.example .margin-example{
+    border: 5px solid #003300;
+    margin: 10px 50px;
+}
+
+.example .spacement{
+    padding-bottom: 50px;
+}
+
+.example .padding-example{
+    border: 5px solid #000099;
+    padding: 10px 50px;
+}
+/* #endregion */
+
+/* #region MORE-INFORMATIONS */
+.more-infos {
+    padding: 6%;
+}
+
+.more-infos h1 {
+    text-align: center;
+    padding: 10px 100px;
+    /*Leitura: 10px -> cima e baixo; 20px -> direita e esquerda*/
+}
+/* #endregion */

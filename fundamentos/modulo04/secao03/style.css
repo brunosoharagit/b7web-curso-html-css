@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: apple, sans-serif;
+}
+
+.container {
+    padding: 1%;
+
+    background-color: #999;
+
+    width: 100vw;
+
+    clear: both;
+
+    overflow: hidden;
+}
+
+.container .logo {
+    float: left;
+    font-size: 20px;
+}
+
+.container .menu {
+    float: right;
+}
+
+.container .menu ul {
+    display: flex;
+}
+
+.container .menu ul li {
+    margin-right: 15px;
+    padding-right: 20px;
+
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.container .menu ul li:hover {
+    color: #fff;
+    transition: 500ms;
+}
+
+h1 {
+    font-size: 15px;
+    color: red;
+}
+
+.box {
+    font-size: 30px;
+}
+
+.box h1 {
+    font-size: inherit;
+    color: inherit;
+}
+
+.box p {
+    color: inherit;
+}

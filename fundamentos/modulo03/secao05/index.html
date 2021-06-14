@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validação nativa - cadastro</title>
+
+    <!-- #region LIBRARIES -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet"> 
+    <!-- #endregion -->
+</head>
+<body>
+    <div class="container" data-aos="fade-left" data-aos-duration="2000">
+        <h1>Cadastro</h1>
+        <form action="plataform_login.html">
+            <label>
+                Nome completo: <br>
+                <input type="text" name="name" id="name" placeholder="Seu nome completo." required minlength="5"> 
+            </label>
+            <label>
+                E-mail: <br>
+                <input type="email" name="email" id="email" placeholder="seuemail@email.com" pattern="^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$" required>
+            </label>
+            <div class="agedate">
+                <label>
+                    Idade: <br>
+                    <input type="number" name="age" id="age" required placeholder="Sua idade" min="18" max="120">
+                </label>
+                <label>
+                    Data de nascimento: <br>
+                    <input type="date" name="date" id="date" min="1900-01-01" max="2100-01-01">
+                </label>
+            </div>
+            <button>Cadastrar</button>
+        </form>
+    </div>
+
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
