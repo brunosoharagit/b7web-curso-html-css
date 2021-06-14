@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- #region LIBRARIES -->
+    <link rel="stylesheet" href="login2.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- #endregion -->
+
+    <title>Login</title>
+</head>
+
+<body>
+    <form action="/modulo02/menu/principal.html" data-aos="fade-down" data-aos-once="true" data-aos-duration="2000">
+        <fieldset>
+            <legend>Login</legend>
+
+            <label>
+                <i class="fas fa-user"></i> Usuário/e-mail: <br>
+                <input type="text" name="useroremail" id="useroremail" placeholder="Digite o usuário / e-mail."><br>
+            </label>
+            <label>
+                <i class="fas fa-lock"></i> Senha: <br>
+                <input type="password" name="password" id="password" placeholder="Digite sua senha."><br><br>
+            </label>
+            <button>Entrar</button><br>
+            <p>
+                Ainda não tem conta?
+            <a href="/modulo03/secao04/pages/signup/signup.html">Cadastrar</a>
+            </p>
+        </fieldset>
+    </form>
+
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

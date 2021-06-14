@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif, Arial;
+}
+
+header {
+    background-image: linear-gradient(to left, #1c80a4, #27a584, #30d1ae);
+    padding: 3%;
+    position: fixed;
+    width: 100%;
+    z-index: 9;
+}
+
+header ul {
+    float: right;
+    padding-right: 100px;
+}
+
+header ul li {
+    display: inline;
+    margin-right: 50px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+header ul li a:hover {
+  background-color: rgba(255,255,255,0.3);
+  padding: 3px 6px;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+.welcome-section {
+    padding: 10%;
+    color: #fff;
+    background-image: linear-gradient(to right, #4f9fb1, #79dac4, #a9d2c1);
+
+    height: auto;
+}
+
+.welcome-section .welcome-title h1 {
+    font-size: 40px;
+}
+
+.welcome-section .welcome-items .welcome-image{
+    float: inline-start;
+    padding: 7%;
+}
+
+.welcome-section .welcome-items .welcome-text{
+    float: inherit;
+    padding: 7%;
+}
+
+.ways-section  {
+    padding: 5%;
+    background-image: linear-gradient(to right, #9fd3c0, #f9e1a3);
+    color: #fff;
+}
+
+.ways-section .ways-title{
+    text-align: center;
+
+}
+
+.ways-section .ways-container{
+    padding: 20px;
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: auto auto auto;
+}
+
+.ways-section .ways-container .item1 h3{
+    text-align: left;
+}
+
+.ways-section .ways-container .item2 h3{
+    text-align: left;
+}
+
+.ways-section .ways-container .item3 h3{
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
