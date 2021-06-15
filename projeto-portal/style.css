@@ -25,6 +25,7 @@ header .menu .dropdown1 .dropbtn1 {
     font-size: 16px;
     border: none;
     cursor: pointer;
+    border-radius: 10px;
 }
 
 header .menu .dropdown1 .dropbtn1:hover {
@@ -70,10 +71,20 @@ header .menu .dropdown1 {
     }
 }
 
-.dropdown-content1 a:hover {background-color: #e2e2e2; transition: 1s;}
+.dropdown-content1 a:hover {
+    background-color: #e2e2e2; 
+    transition: 1s; 
+}
 
 .dropdown1:hover .dropdown-content1 {
     display: block;
 }
 
+/* #endregion */
+
+/* #region FORMS */
+header .menu #forms {
+    float: right;
+    padding-right: 50px;
+}
 /* #endregion */
