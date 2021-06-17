@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    align-content: center;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    border: 1px solid #000;
+}
+
+@media (orientation: landscape) {
+    body {
+        flex-direction: row;
+    }
+}
+
+@media (orientation: portrait) {
+    body {
+        flex-direction: column;
+    }
+}
