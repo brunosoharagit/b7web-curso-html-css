@@ -1,0 +1,45 @@
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+h1 {
+    font-size: 100px;
+}
+
+/* @media (condição 1: valor da condição 1 || condição x: valor da condição x){
+    tag apresentada 1 {
+        selector 1: valor da selector 1
+    }
+} */
+
+@media (max-width: 999px) {
+    body {
+        background-color: #888;
+    }
+
+    h1 {
+        font-size: 75px;
+    }
+}
+
+@media (max-width: 699px) {
+    body {
+        background-color: #ddd;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 449px) {
+    body {
+        background-color: #fff;
+    }
+
+    h1 {
+        font-size: 25px;
+        color: #000;
+    }
+}
