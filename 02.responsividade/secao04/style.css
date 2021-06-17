@@ -1,45 +1,42 @@
-body {
-    background-color: #000;
-    color: #fff;
+* {
+    margin:0;
+    padding:0;
 }
 
-h1 {
-    font-size: 100px;
+header {
+    clear: both;
+    overflow: hidden;
+
+    padding: 2%;
+
+    background-color: #888;
 }
 
-/* @media (condição 1: valor da condição 1 || condição x: valor da condição x){
-    tag apresentada 1 {
-        selector 1: valor da selector 1
-    }
-} */
-
-@media (max-width: 999px) {
-    body {
-        background-color: #888;
-    }
-
-    h1 {
-        font-size: 75px;
-    }
+header .title {
+    float: left;
+    font-size: 30px;
 }
 
-@media (max-width: 699px) {
-    body {
-        background-color: #ddd;
-    }
-
-    h1 {
-        font-size: 50px;
-    }
+header .menu {
+    float: right;
+    padding: 3%;
+    font-size: 25px;
 }
 
-@media (max-width: 449px) {
-    body {
-        background-color: #fff;
+header .menu ul {
+    display: flex;
+}
+
+header .menu ul li {
+    padding-right: 40px;
+}
+
+@media (max-width: 800px) {
+    header {
+        clear: both;
     }
 
-    h1 {
-        font-size: 25px;
-        color: #000;
+    header .menu ul {
+        display: block;
     }
 }
