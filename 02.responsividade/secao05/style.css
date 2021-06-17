@@ -1,22 +1,40 @@
-body {
+* {
+    margin:0;
+    padding:0;
+}
+
+header {
+    background-color: #99ff99;
+
+    padding: 30px;
+
+    clear: both;
+    overflow: hidden;
+}
+
+header .logo {
+    float: left;
+
+    font-size: 50px;
+}
+
+header .menu {
+    float: right;
+
+    padding: 20px;
+}
+
+header .menu ul {
     display: flex;
-    align-content: center;
 }
 
-.box {
-    height: 100px;
-    width: 100px;
-    border: 1px solid #000;
+header .menu ul li {
+    padding-right: 15px;
 }
 
-@media (orientation: landscape) {
-    body {
-        flex-direction: row;
-    }
-}
-
-@media (orientation: portrait) {
-    body {
-        flex-direction: column;
+@media (max-width: 470px) {
+    header .menu ul{
+        display: block;
+        padding-bottom: 40px;
     }
 }
