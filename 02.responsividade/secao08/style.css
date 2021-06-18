@@ -22,3 +22,15 @@
     padding-left: 20px;
     font-size: var(--font-size-p);
 }
+
+@media (max-width: 600px){
+    :root {
+        --font-size-title: 30px;
+        --font-size-subtitle: 20px;
+        --font-size-p: 15px;
+    }
+
+    .menu ul {
+        display: block;
+    }
+}
