@@ -1,0 +1,67 @@
+:root {
+    --font-size-logo: 50px;
+    --font-size-title: 40px;
+    --font-size-subtitle: 25px;
+    --font-size-menu: 20px;
+    --font-size-p: 15px;
+
+    --navbar-bgc: #9999dd;
+
+    --color-title: #d4f4f6;
+    --color-subtitle: #a1c1d3;
+    --color-p: #c35a22;
+}
+
+* {
+    margin:0;
+    padding:0;
+
+    font-family:'Gill Sans', 
+    'Gill Sans MT', Calibri, 
+    'Trebuchet MS', sans-serif;
+}
+
+/* #region HEADER */
+header {
+    padding: 15px;
+
+    clear: both;
+    overflow: hidden;
+
+    background-color: var(--navbar-bgc);
+}
+
+header .title {
+    float: left;
+}
+
+header .menu {
+    float: right;
+    font-size: var(--font-size-menu);
+}
+
+header .menu ul {
+    display: flex;
+    padding: 35px;
+}
+
+header .menu ul li {
+    padding-right: 15px;
+}
+/* #endregion */
+
+/* #region SECTION */
+section {
+    padding: 30px;
+}
+
+section h1 {
+    font-size: var(--font-size-title);
+}
+/* #endregion */
+
+@media (max-width: 640px) {
+    header .menu ul {
+        display: block;
+    }
+}
