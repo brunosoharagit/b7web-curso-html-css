@@ -8,3 +8,15 @@
     margin:0;
     padding:0;
 }
+
+.menu {
+    padding: 50px;
+}
+
+.menu ul{
+    display: flex;
+}
+
+.menu ul li {
+    padding-left: 20px;
+}
