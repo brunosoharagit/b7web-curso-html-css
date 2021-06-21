@@ -1,3 +1,15 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+header {
+    clear:both;
+    overflow: hidden;
+}
+
+header
+
 /* #region VIDEO */
 .video {
     width: 100%;
