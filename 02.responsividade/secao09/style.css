@@ -24,7 +24,7 @@ header .menu ul {
 }
 
 img {
-    width: max(50%, 300px);
+    width: max(50%, 10px);
 }
 
 /* #region VIDEO */
@@ -50,4 +50,8 @@ img {
     height: 100%;
     border: 0px;
 }
+/* #endregion */
+
+/* #region SECAO-NADA */
+
 /* #endregion */
