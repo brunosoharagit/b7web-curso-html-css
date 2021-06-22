@@ -6,14 +6,31 @@
 header {
     clear:both;
     overflow: hidden;
+
+    padding: 10px;
 }
 
-header
+header .logo {
+    float: left;
+}
+
+header .menu {
+    float: right;
+    padding: 5px;
+}
+
+header .menu ul {
+    display: flex;
+}
+
+img {
+    width: max(50%, 300px);
+}
 
 /* #region VIDEO */
 .video {
-    width: 100%;
-    max-width: 900px;
+    width: 50%;
+    max-width: 700px;
     margin: auto;
 }
 
