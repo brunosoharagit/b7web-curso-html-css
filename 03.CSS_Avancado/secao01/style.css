@@ -1,0 +1,9 @@
+footer {
+    height: 50px;
+    background-color: #999;
+}
+
+nav {
+    height: 50px;
+    align-items: center;
+}
