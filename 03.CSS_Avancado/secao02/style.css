@@ -1,0 +1,14 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+form {
+    clear: both;
+    padding: 50px;  
+}
+
+form input {
+    display: block;
+    margin-top: 15px;
+}
