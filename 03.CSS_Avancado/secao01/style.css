@@ -6,3 +6,17 @@ footer {
 nav {
     height: 50px;
 }
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #888;
+}
+
+bruno {
+    height: 200px;
+    width: 400px;
+    background-color: #777;
+}
