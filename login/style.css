@@ -4,22 +4,24 @@
     font-family: 'Nunito', sans-serif;
 }
 
+/* #region HEADER */
 header {
-    padding: 4%;
-    background-image: linear-gradient(to right, #542ee1, #88d2d3);
+    padding: 40px;
+    
 }
 
 header .logo {
-    width: 60%;
     float: left;
     position: absolute;
-    top: 35px;
+    top: 25px;
     left: 85px;
 }
 
 header .menu {
-    width: 30%;
     float: right;
+    position: relative;
+    top: -5px;
+    right: 30px;
 }
 
 header .menu ul{
@@ -39,3 +41,33 @@ header .menu ul li a:hover {
     color: #fff;
     transition: 1000ms;
 }
+/* #endregion */
+
+/* #region FORM  */
+section {
+    background-color: #eee;
+    padding: 5%;
+}
+
+fieldset {
+    width: 50%;
+    position: relative;
+
+    border: 1px solid transparent;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px #000;
+}
+
+legend{
+    font-size: 40px;
+    padding-left: 100px;
+}
+
+form {
+    padding: 30px;
+    position: relative;
+    left: 180px;
+}
+
+
+/* #endregion */
