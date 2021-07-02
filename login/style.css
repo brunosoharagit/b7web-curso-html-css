@@ -1,111 +1,40 @@
 * {
-    margin:0;
-    padding:0;
-    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito';
 }
 
-/* #region HEADER */
 header {
+    background-image: linear-gradient(to right, #888, #888);
     padding: 40px;
-    
+
+    clear: both;
+    overflow: hidden;
 }
 
-header .logo {
+header .title {
     float: left;
-    position: absolute;
-    top: 25px;
-    left: 85px;
 }
 
-header .menu {
+nav {
+    padding: 10px;
     float: right;
-    position: relative;
-    top: -5px;
-    right: 30px;
 }
 
-header .menu ul{
-    display: flex;
-}
+nav a {
+    padding-right: 5px;
 
-header .menu ul li {
-    margin-right: 40px;
-}
-
-header .menu ul li a {
-    color: #000;
+    color: #333;
     text-decoration: none;
 }
 
-header .menu ul li a:hover {
-    color: #aaa;
-    transition: 1000ms;
-}
-/* #endregion */
-
-/* #region FORM  */
-section {
-    background-color: rgb(255, 255, 255);
-    padding: 5%;
-}
-
-fieldset {
-    width: 50%;
-    position: relative;
-
-    border: none;
-    border-radius: 15px;
-    box-shadow: 5px 5px 5px #000;
-}
-
-legend{
-    font-size: 40px;
-    padding-left: 100px;
-}
-
-form {
-    padding: 30px;
-    position: relative;
-    left: 180px;
-}
-
-label {
-    font-size: 20px;
-    position:  inherit;
-    right: 50px;
-}
-
-input[type="text"],
-input[type="password"] {
-    width: 50%;
-    position: relative;
-    right: 40px;
-}
-
-input[type="submit"] {
-    width: 20%;
-    height: 30px;
-
-    margin-top: 20px;
-    margin-left: 45px;
-
-    border: none;
-    border-radius: 10px;
-
-    background-color: #000;
-    color: #fff
-}
-
-input[type="submit"]:hover {
-    background-color: #33ff33;
-    color:#000;
+nav a:hover {
+    color: #ddd;
     transition: 500ms;
 }
 
-p {
-    padding: 2%;
-    position: relative;
-    left: 160px;
-    bottom: 20px;
+@media screen and (max-width: 640px) {
+    nav a{
+        display:list-item;
+    }
 }
-/* #endregion */
