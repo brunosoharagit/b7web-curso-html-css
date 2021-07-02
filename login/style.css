@@ -33,6 +33,20 @@ nav a:hover {
     transition: 500ms;
 }
 
+section {
+    padding: 30px;
+}
+
+section h1 {
+    font-size: 50px;
+}
+
+section form {
+    width: 50%;
+
+    border: 1px solid #999;
+}
+
 @media screen and (max-width: 640px) {
     nav a{
         display:list-item;
