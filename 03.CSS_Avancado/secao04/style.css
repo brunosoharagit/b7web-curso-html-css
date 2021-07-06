@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 70px;
+}
+
+bruno {
+    padding: 30px;
+    color: #fff;
+    background-color: #444;
+}
+
+felipe {
+    padding: 30px;
+    color: #fff;
+    background-color: #ccc;
+}
