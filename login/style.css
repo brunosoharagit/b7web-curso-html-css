@@ -42,6 +42,9 @@ section h1 {
 }
 
 section form {
+    position: relative;
+    left: 300px;
+
     width: 50%;
 
     padding:30px;
