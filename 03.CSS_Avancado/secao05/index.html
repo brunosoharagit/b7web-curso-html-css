@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Atributo data</title>
+    <title>Atributo data, video e audio</title>
 
     <link rel="stylesheet" href="style.css">
 </head>
@@ -15,11 +15,40 @@
     </div>
 
     <div class="video" style="text-align: center">
-        <video height="500" width="500" autoplay>
+        <video height="500" width="500" controls>
             <source src="./10.2s Verak Lith.mp4" type="video/mp4" />
         </video>
         <h1 style="text-align: center">Credits: Puprs</h1>
         <h5><a href="https://www.youtube.com/channel/UCpWJIw1a-4d57Y4RppJcoNg">Owner's YT Channel</a></h5>
+    </div>
+
+    <div class="audio" style="text-align: center; padding-top: 50px;">
+        <audio controls loop>
+            <source src="kowkaine - our last time.mp3" type="audio/mpeg" />
+        </audio>
+
+        <!-- <p>controls</p>
+        <p>autoplay</p>
+        <p>muted</p>
+        <p>loop</p>
+        <p>preload</p> -->
+    </div>
+
+
+    <div class="form" style="text-align:center;">
+        <form>
+            <label>
+                E-mail: <br>
+                <input type="email" name="email" id="email" placeholder="email@email.com"/>
+            </label>
+
+            <br><br>
+
+            <label>
+                Senha: <br>
+                <input type="password" name="password" id="password" placeholder="senha123">
+            </label>
+        </form>
     </div>
 </body>
 </html>
