@@ -1,0 +1,39 @@
+* {
+    margin:0;
+    padding:0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+    padding: 50px;
+    background: linear-gradient(-45deg, #9a9aff, #8787ff, #6b6bff);
+}
+
+section nav {
+    padding: 10%;
+    display: flex;
+}
+
+section nav div {
+    padding-left: 270px;
+    margin-left: 20px;
+}
+
+.ball1 {
+    background-color: #999;
+    height: 100px;
+    width: 100px;
+}
+
+.ball2 {
+    background-color: #a8a8a8;
+    height: 100px;
+    width: 100px;
+}
+
+.ball3 {
+    background-color: #9a9a9a;
+    height: 100px;
+    width: 100px;
+
+}
