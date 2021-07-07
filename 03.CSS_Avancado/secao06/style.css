@@ -49,6 +49,27 @@ section nav div {
 
 @keyframes jump {
     0%   {transform: translate3d(0,0,0);}
-    40%  {transform: translate3d(0,30%,0);}
+    50%  {transform: translate3d(0,50%,0);}
     100% {transform: translate3d(0,100%,0);}
 }
+
+.part-1 {
+    padding-left: 550px;
+    padding-top: 25px;
+    height: 4000px;
+}
+
+.part-1 .square {
+    background-color: #000;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    animation: jump2 2s linear infinite;
+}
+
+@keyframes jump2 {
+        0% {transform: translateY(0);}
+        50% {transform: translateY(50px);}
+        100%{transform: translateY(0);}
+}
+
