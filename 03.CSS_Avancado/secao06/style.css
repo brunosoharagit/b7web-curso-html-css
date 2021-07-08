@@ -74,3 +74,30 @@ section nav div {
         100%{transform: translateY(0);}
 }
 /* #endregion */
+
+main {
+    padding: 50px;
+}
+
+main i {
+    color: #909090;
+    font-size: 50px;
+    position: absolute;
+    left: 650px;
+
+    animation: referenceJump 1s linear infinite;
+}
+
+@keyframes referenceJump {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-15px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
