@@ -2,3 +2,23 @@
     margin:0;
     padding:0;
 }
+
+.block {
+    height:400px;
+    width:200px;
+    background: #333;
+    text-shadow: 3px 3px 3px #fff;
+
+    transition: all 1s linear;
+
+    word-wrap: break-word;
+}
+.block:hover {
+    padding: 50px;
+    background: #999;
+    width: 1200px;
+
+    font-size: 50px;
+    color: #fff;
+    text-shadow: 3px 3px 3px #000;
+}   
