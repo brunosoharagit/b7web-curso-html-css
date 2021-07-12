@@ -85,7 +85,9 @@ main i {
     position: absolute;
     left: 650px;
 
-    animation: referenceJump 1s linear infinite;
+    text-shadow: 5px 5px 10px #000;
+
+    animation: referenceJump 2s linear infinite;
 }
 
 @keyframes referenceJump {
@@ -99,44 +101,5 @@ main i {
 
     100% {
         transform: translateY(0px);
-    }
-}
-
-banner {
-    background: gray;
-    width: 300px;
-    height: 150px;
-
-    border-radius: 10%;
-
-    position: absolute;
-
-    animation: moveAndChange 5s linear infinite;
-}
-
-@keyframes moveAndChange {
-    0% {
-        background: red;
-        border-radius: 20%;
-    }
-
-    25% {
-        background: violet;
-        border-radius: 30%;
-    }
-
-    50% {
-        background: yellow;
-        border-radius: 40%;
-    }
-
-    75% {
-        background: blue;
-        border-radius: 50%;
-    }
-
-    100% {
-        background: gray;
-        border-radius: 10%;
     }
 }
