@@ -101,3 +101,42 @@ main i {
         transform: translateY(0px);
     }
 }
+
+banner {
+    background: gray;
+    width: 300px;
+    height: 150px;
+
+    border-radius: 10%;
+
+    position: absolute;
+
+    animation: moveAndChange 5s linear infinite;
+}
+
+@keyframes moveAndChange {
+    0% {
+        background: red;
+        border-radius: 20%;
+    }
+
+    25% {
+        background: violet;
+        border-radius: 30%;
+    }
+
+    50% {
+        background: yellow;
+        border-radius: 40%;
+    }
+
+    75% {
+        background: blue;
+        border-radius: 50%;
+    }
+
+    100% {
+        background: gray;
+        border-radius: 10%;
+    }
+}
