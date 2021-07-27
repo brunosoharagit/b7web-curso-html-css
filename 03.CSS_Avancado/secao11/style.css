@@ -8,7 +8,7 @@ header {
     padding: 4%;
     clear: both;
     overflow: hidden;
-    background-color: #f3d3c3;
+    background: #f3d3c3;
 }
 
 header .title {
@@ -24,4 +24,26 @@ header nav a {
     color: #999;
     text-decoration: none;
     padding-right: 10px;
+}
+
+.container {
+    display: flex;
+    min-height: 600px;
+}
+
+.container aside {
+    background: #333;
+}
+
+.container main {
+    flex: 1;
+}
+
+.container main section {
+    background: #111;
+}
+
+footer {
+    background: #888;
+    min-height: 100px;
 }
