@@ -266,3 +266,18 @@
     height: 20px;
     width: 100px;
 }
+
+.cont7 {
+    display: flex;
+    background-color: #9d4ca2;
+    margin: 10px;
+    padding: 10px;
+}
+
+.cont7 div {
+    background-color: #fff;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    padding: 10px;
+}
