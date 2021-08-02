@@ -11,7 +11,7 @@ header {
 }
 
 .container {
-    background-color: #222;
+
     width: 990px;
     display: flex;
     justify-content: space-between;
@@ -20,4 +20,41 @@ header {
 .logo {
     display: flex;
     align-items: center;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+nav ul,
+nav li {
+    display: block;
+    margin:0;
+    padding:0;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav a {
+    color: #555;
+    text-decoration: none;
+    padding: 15px;
+    text-transform: uppercase;
+}
+
+nav .active a,
+nav a:hover {
+    background-color: #717171;
+    color: #fff;
+    transition: 500ms;
+}
+
+#banner {
+    background-image: url('/projeto-site/assets/images/Capturar.PNG');
+    background-position: center;
+    background-size: cover;
+    height: 300px;
 }
