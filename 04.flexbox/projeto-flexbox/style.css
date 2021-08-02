@@ -28,3 +28,36 @@ header {
     display: flex;
     align-items: center;
 }
+
+nav ul,
+nav li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav a {
+    color: #666666;
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav .active a,
+nav a:hover {
+    background-color: #39aae1;
+    transition: 500ms;
+    color: #fff;
+}
+
+#banner {
+    background-image: url('assets/images/img1.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+}
