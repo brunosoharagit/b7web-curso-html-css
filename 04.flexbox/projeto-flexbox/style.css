@@ -228,8 +228,8 @@ nav a:hover {
 }
 
 .widget_title_bar {
-    width: 50px;
-    height: 5px;
+    width: 150px;
+    height: 2px;
     border-radius: 10px;
     background-color: #36a9e1;
     margin-top: 10px;
@@ -243,7 +243,7 @@ nav a:hover {
 }
 
 .square {
-    margin: 20px;
+    margin: 10px;
     height: 100px;
     width: 100px;
     margin-right: 30px;
@@ -251,7 +251,24 @@ nav a:hover {
     background-color: #36a9e1;
 }
 
-/* widget_body TEXT */
+/* widget_body TEXT & INFOS*/
+.widget_text {
+    padding: 10px;
+    flex-wrap: wrap;
+    text-align: justify;
+}
+
+.widget_line {
+    margin-top: 30px;
+    width: 320px;
+    height: 1px;
+    background-color: #ccc;
+}
+
+.widget_table {
+    display: flex;
+    justify-content: space-between;
+}
 
 
 /* #endregion */
