@@ -244,13 +244,12 @@ nav a:hover {
 .widget_body {
     margin-bottom: 20px;
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
 }
 
 .square {
-    height: 100px;
-    width: 100px;
+    height: 120px;
+    width: 120px;
     margin-right: 30px;
     margin-bottom: 30px;
     background-color: #36a9e1;
@@ -373,6 +372,7 @@ footer {
 .fm_1 h2 {
     font-weight: 400;
     font-size: 15px;
+    margin: 10px;
 }
 
 /* #footer menu 2 */
@@ -387,6 +387,7 @@ footer {
 .fm_2 h2 {
     font-weight: 400;
     font-size: 15px;
+    margin: 10px;
 }
 
 /* #footer menu 3 */
@@ -401,6 +402,7 @@ footer {
 .fm_3 h2 {
     font-weight: 400;
     font-size: 15px;
+    margin: 10px;
 }
 
 .footer_area {
@@ -449,6 +451,7 @@ footer .posts {
 }
 
 footer .post_resume {
+    margin: 5px 0;  
     font-size: 12px;
     color: #5f5f5f;
 }
@@ -458,4 +461,8 @@ footer .post_date {
     font-size: 12px;
     color: #36a9e1;
 }
+/* #endregion */
+
+/* #region MOBILE */
+
 /* #endregion */
