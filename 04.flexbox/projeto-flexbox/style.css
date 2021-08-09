@@ -22,6 +22,20 @@ body {
     flex-direction: column;
 }
 
+.menuMobile {
+	display:none;
+	width:40px;
+	height:40px;
+	margin-top:40px;
+	margin-bottom:40px;
+	margin-right:20px;
+}
+
+.mm_line {
+    height: 2px;
+    background-color: #39aae1;
+}
+
 /* #region HEADER */
 header {
     display: flex;
@@ -104,7 +118,7 @@ nav a:hover {
 }
 
 .banner_options {
-    height: 300px;
+    height: auto;
     display: flex;
 }
 
@@ -113,7 +127,7 @@ nav a:hover {
 .banner3 {
     flex: 1;
     color: #fff;
-    padding:10px;
+    padding: 20px;
 }
 
 .banner1 {
@@ -170,40 +184,6 @@ nav a:hover {
     justify-content: space-between;
     margin: 15px;
     border-bottom: 1px solid #ddd;  
-}
-/* #endregion */
-
-/* #region ARROW */
-#arrow {
-    display: flex;
-    justify-content: center;
-    height: 220px;
-    color: #888;
-}
-
-.title {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-end;
-    padding: 25px;
-    font-size: 40px;
-}
-
-.arrow-icon {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-end;
-    padding: 5px;
-    font-size: 50px;
-    animation: jump 2s linear infinite; 
-}
-
-@keyframes jump {
-    0% {transform: translateY(0)}
-    50% {transform: translateY(20px)}
-    100% {transform: translateY(0)}
 }
 /* #endregion */
 
@@ -463,6 +443,120 @@ footer .post_date {
 }
 /* #endregion */
 
-/* #region MOBILE */
+/* #region MEDIA */
+@media (min-width: 751px) and (max-width:1000px) {
 
+    header .logo {
+        padding: 10px;
+    }
+
+    .container {
+        padding: 20px;
+    }
+
+    .banner_headline {
+        padding: 30px;
+    }
+
+    .banner_headline h1 {
+        font-size: 45px;
+        padding-left: 20px;
+    }
+    
+    .banner_headline h2 {
+        font-size: 15px;
+        padding-left: 20px;
+    }
+}
+
+@media (max-width: 750px) {
+
+    nav ul {
+        flex-direction: column;
+        display: none;
+    }
+
+    header {
+        height: auto;
+    }
+
+    header .container {
+        flex-direction: row;
+    }
+
+    header .logo {
+        padding: 30px;
+        padding-top: 40px;
+    }
+
+    #banner a {
+        font-size: 10px;
+    }
+
+    .banner_headline {
+        padding: 30px;
+    }
+
+    .banner_headline h1 {
+        font-size: 45px;
+        padding-left: 20px;
+    }
+    
+    .banner_headline h2 {
+        font-size: 15px;
+        padding-left: 20px;
+    }
+
+    .banner_options {
+        height: auto;
+    }
+
+    .banner_title {
+        font-size: 20px;
+    }
+
+    .banner_table {
+        justify-content: space-between;
+    }
+
+    .banner_desc {
+        font-size: 10px;
+    }
+
+    .week_opening,
+    .saturday_opening {
+        display: flex;
+        flex: 1;
+        justify-content: space-between;
+        font-size: 10px;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    #general section,
+    #general aside {
+        padding: 20px;
+    }
+
+    footer .footer_menu,
+    footer .footer_area {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    footer .footer_copyright {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .menuMobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding-right: 20px;
+    }
+
+}
 /* #endregion */
