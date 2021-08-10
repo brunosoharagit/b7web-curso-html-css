@@ -3,8 +3,8 @@
 }
 
 body {
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
 }
 
 .container {
@@ -23,12 +23,12 @@ body {
 }
 
 .menuMobile {
-	display:none;
-	width:40px;
-	height:40px;
-	margin-top:40px;
-	margin-bottom:40px;
-	margin-right:20px;
+    display: none;
+    width: 40px;
+    height: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 20px;
 }
 
 .mm_line {
@@ -78,6 +78,7 @@ nav a:hover {
     transition: 500ms;
     color: #fff;
 }
+
 /* #endregion */
 
 /* #region BANNER */
@@ -91,7 +92,7 @@ nav a:hover {
 }
 
 .banner_headline {
-    flex:1;
+    flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -102,8 +103,8 @@ nav a:hover {
     font-size: 55px;
     font-weight: 500;
     text-shadow: 0 2px 0 #555;
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
     max-width: 300px;
 }
 
@@ -111,8 +112,8 @@ nav a:hover {
     font-size: 25px;
     font-weight: 500;
     text-shadow: 0 2px 0 #555;
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
     max-width: 300px;
     margin-top: 30px;
 }
@@ -133,9 +134,11 @@ nav a:hover {
 .banner1 {
     background-color: #39aa;
 }
+
 .banner2 {
     background-color: #44ad;
 }
+
 .banner3 {
     background-color: #56ff;
 }
@@ -166,10 +169,10 @@ nav a:hover {
 }
 
 .banner_table {
-    display: flex; 
+    display: flex;
     flex-direction: column;
     margin: 15px;
-} 
+}
 
 .week_opening {
     display: flex;
@@ -183,8 +186,9 @@ nav a:hover {
     display: flex;
     justify-content: space-between;
     margin: 15px;
-    border-bottom: 1px solid #ddd;  
+    border-bottom: 1px solid #ddd;
 }
+
 /* #endregion */
 
 /* #region GENERAL  */
@@ -274,6 +278,7 @@ nav a:hover {
     text-shadow: 2px solid #000;
     font-size: 17px;
 }
+
 /* #endregion */
 
 /* #region ARTICLE */
@@ -305,7 +310,7 @@ article .news_comments {
     padding: 10px;
 }
 
-article .news_thumbnail img{
+article .news_thumbnail img {
     width: 100%;
     height: auto;
     margin-top: 25px;
@@ -323,26 +328,31 @@ article .news_resume {
     line-height: 22px;
     color: #777;
 }
+
 /* #endregion */
 
 /* #region FOOTER */
 footer {
-	background-color:#1e1e1e;
-	display:flex;
-	justify-content:center;
+    background-color: #1e1e1e;
+    display: flex;
+    justify-content: center;
 }
+
 .footer_menu {
-	display:flex;
+    display: flex;
 }
-.fm_1, .fm_2, .fm_3 {
-	flex:1;
-	color:#FFFFFF;
+
+.fm_1,
+.fm_2,
+.fm_3 {
+    flex: 1;
+    color: #FFFFFF;
     padding: 20px;
 }
 
 /* #footer menu 1 */
 .fm_1 {
-	background-color:#39aae1;
+    background-color: #39aae1;
 }
 
 .fm_1 h1 {
@@ -357,7 +367,7 @@ footer {
 
 /* #footer menu 2 */
 .fm_2 {
-	background-color:#0079c7;
+    background-color: #0079c7;
 }
 
 .fm_2 h1 {
@@ -372,7 +382,7 @@ footer {
 
 /* #footer menu 3 */
 .fm_3 {
-	background-color:#2b4c99;
+    background-color: #2b4c99;
 }
 
 .fm_3 h1 {
@@ -407,7 +417,7 @@ footer .widget_title_text {
 }
 
 /* #widget_text */
-footer .widget_text{
+footer .widget_text {
     color: #5f5f5f;
     font-size: 12px;
     margin-right: 50px;
@@ -431,7 +441,7 @@ footer .posts {
 }
 
 footer .post_resume {
-    margin: 5px 0;  
+    margin: 5px 0;
     font-size: 12px;
     color: #5f5f5f;
 }
@@ -441,6 +451,7 @@ footer .post_date {
     font-size: 12px;
     color: #36a9e1;
 }
+
 /* #endregion */
 
 /* #region MEDIA */
@@ -462,7 +473,7 @@ footer .post_date {
         font-size: 45px;
         padding-left: 20px;
     }
-    
+
     .banner_headline h2 {
         font-size: 15px;
         padding-left: 20px;
@@ -474,6 +485,11 @@ footer .post_date {
     nav ul {
         flex-direction: column;
         display: none;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background-color: #fff;
+        z-index: 9;
     }
 
     header {
@@ -501,7 +517,7 @@ footer .post_date {
         font-size: 45px;
         padding-left: 20px;
     }
-    
+
     .banner_headline h2 {
         font-size: 15px;
         padding-left: 20px;
@@ -559,4 +575,5 @@ footer .post_date {
     }
 
 }
+
 /* #endregion */
