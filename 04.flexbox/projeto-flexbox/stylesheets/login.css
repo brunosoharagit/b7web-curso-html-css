@@ -80,7 +80,24 @@ nav a:hover {
 /* #endregion */
 
 /* #region LOGIN */
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
 
+.login h1 {
+    align-items: center;
+    font-size: 75px;
+    font-weight: 200;
+}
+
+.login form {
+    padding: 50px;
+    margin-bottom: 100px;
+    background-color: #70936a;
+}
 /* #endregion */
 
 /* #region FOOTER */
