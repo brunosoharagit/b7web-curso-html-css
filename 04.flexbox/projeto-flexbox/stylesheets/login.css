@@ -2,6 +2,11 @@
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .container {
     width: 990px;
     display: flex;
@@ -15,6 +20,20 @@
 
 .column {
     flex-direction: column;
+}
+
+.menuMobile {
+    display: none;
+    width: 40px;
+    height: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+}
+
+.mm_line {
+    height: 2px;
+    background-color: #39aae1;
 }
 
 /*#region HEADER */
@@ -58,4 +77,255 @@ nav a:hover {
     transition: 500ms;
     color: #fff;
 }
+/* #endregion */
+
+/* #region LOGIN */
+
+/* #endregion */
+
+/* #region FOOTER */
+footer {
+    background-color: #1e1e1e;
+    display: flex;
+    justify-content: center;
+}
+
+.footer_menu {
+    display: flex;
+}
+
+.fm_1,
+.fm_2,
+.fm_3 {
+    flex: 1;
+    color: #FFFFFF;
+    padding: 20px;
+}
+
+/* #footer menu 1 */
+.fm_1 {
+    background-color: #39aae1;
+}
+
+.fm_1 h1 {
+    font-weight: 100;
+}
+
+.fm_1 h2 {
+    font-weight: 400;
+    font-size: 15px;
+    margin: 10px;
+}
+
+/* #footer menu 2 */
+.fm_2 {
+    background-color: #0079c7;
+}
+
+.fm_2 h1 {
+    font-weight: 100;
+}
+
+.fm_2 h2 {
+    font-weight: 400;
+    font-size: 15px;
+    margin: 10px;
+}
+
+/* #footer menu 3 */
+.fm_3 {
+    background-color: #2b4c99;
+}
+
+.fm_3 h1 {
+    font-weight: 100;
+}
+
+.fm_3 h2 {
+    font-weight: 400;
+    font-size: 15px;
+    margin: 10px;
+}
+
+.footer_area {
+    display: flex;
+}
+
+.footer_areaitem {
+    flex: 1;
+    color: #fff;
+}
+
+footer .widget_title_text {
+    color: #fff;
+    font-size: 25px;
+}
+
+.footer_copyright {
+    border-top: 1px solid #2c2c2c;
+    line-height: 80px;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+/* #widget_text */
+footer .widget_text {
+    color: #5f5f5f;
+    font-size: 12px;
+    margin-right: 50px;
+}
+
+footer .widget_locations {
+    margin-top: 20px;
+    margin-top: 20px;
+    padding: 5px;
+    color: #5f5f5f;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+footer .posts {
+    margin-right: 5px;
+    padding: 5px;
+}
+
+footer .post_resume {
+    margin: 5px 0;
+    font-size: 12px;
+    color: #5f5f5f;
+}
+
+footer .post_date {
+    margin: 5px 0;
+    font-size: 12px;
+    color: #36a9e1;
+}
+
+/* #endregion */
+
+/* #region MEDIA */
+@media (min-width: 751px) and (max-width:1000px) {
+
+    header .logo {
+        padding: 10px;
+    }
+
+    .container {
+        padding: 20px;
+    }
+
+    .banner_headline {
+        padding: 30px;
+    }
+
+    .banner_headline h1 {
+        font-size: 45px;
+        padding-left: 20px;
+    }
+
+    .banner_headline h2 {
+        font-size: 15px;
+        padding-left: 20px;
+    }
+}
+
+@media (max-width: 750px) {
+
+    nav ul {
+        flex-direction: column;
+        display: none;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background-color: #fff;
+        z-index: 9;
+    }
+
+    header {
+        height: auto;
+    }
+
+    header .container {
+        flex-direction: row;
+    }
+
+    header .logo {
+        padding: 30px;
+        padding-top: 40px;
+    }
+
+    #banner a {
+        font-size: 10px;
+    }
+
+    .banner_headline {
+        padding: 30px;
+    }
+
+    .banner_headline h1 {
+        font-size: 45px;
+        padding-left: 20px;
+    }
+
+    .banner_headline h2 {
+        font-size: 15px;
+        padding-left: 20px;
+    }
+
+    .banner_options {
+        height: auto;
+    }
+
+    .banner_title {
+        font-size: 20px;
+    }
+
+    .banner_table {
+        justify-content: space-between;
+    }
+
+    .banner_desc {
+        font-size: 10px;
+    }
+
+    .week_opening,
+    .saturday_opening {
+        display: flex;
+        flex: 1;
+        justify-content: space-between;
+        font-size: 10px;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    #general section,
+    #general aside {
+        padding: 20px;
+    }
+
+    footer .footer_menu,
+    footer .footer_area {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    footer .footer_copyright {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .menuMobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding-right: 20px;
+    }
+
+}
+
 /* #endregion */

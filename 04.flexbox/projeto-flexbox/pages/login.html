@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,13 +10,12 @@
     <!-- #region LIBRARIES -->
     <link rel="stylesheet" href="../stylesheets/login.css">
     <script type="text/javascript">
-        window.onload = function() {
-            document.querySelector(".menuMobile").addEventListener("click", function(){
-                if (document.querySelector(".menu nav li").style.display == 'flex') {
-                    document.querySelector(".menu nav li").style.display = 'none';
-                }
-                else {
-                    document.querySelector(".menu nav li").style.display = 'flex';
+        window.onload = function () {
+            document.querySelector(".menuMobile").addEventListener("click", function () {
+                if (document.querySelector(".menu nav ul").style.display == 'flex') {
+                    document.querySelector(".menu nav ul").style.display = 'none';
+                } else {
+                    document.querySelector(".menu nav ul").style.display = 'flex';
                 }
             });
         };
@@ -23,6 +23,7 @@
     <!-- #endregion -->
 
 </head>
+
 <body>
     <header>
         <div class="container">
@@ -33,6 +34,11 @@
             </div>
             <div class="menu">
                 <nav>
+                    <div class="menuMobile">
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                    </div>
                     <ul>
                         <li><a href="">HOME</a></li>
                         <li><a href="">BLOG</a></li>
@@ -47,9 +53,130 @@
     </header>
 
     <section class="login">
-        <div class="container">
-            
-        </div>
+        
     </section>
+
+    <footer>
+        <div class="container column">
+            <div class="footer_menu">
+                <div class="fm_1">
+                    <h1>Health Insurance</h1>
+                    <h2>Lorem Ipsum Dolor Ventrium</h2>
+                </div>
+                <div class="fm_2">
+                    <h1>Medical Records</h1>
+                    <h2>Lorem Ipsum Dolor Ventrium</h2>
+                </div>
+                <div class="fm_3">
+                    <h1>Health Insurance</h1>
+                    <h2>Lorem Ipsum Dolor Ventrium</h2>
+                </div>
+            </div>
+
+            <div class="footer_area">
+                <div class="footer_areaitem">
+                    <div class="widget">
+                        <div class="widget_title">
+                            <div class="widget_title_text">Medicenter Clinic</div>
+                            <div class="widget_title_bar"></div>
+                        </div>
+                        <div class="widget_body column">
+                            <div class="widget_text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua.
+                            </div>
+
+                            <div class="widget_locations">
+                                <div class="widget_address">
+                                    Medicenter Clinic <br>
+                                    33 Farlane Street <br>
+                                    Keylor East <br>
+                                    Vic 3033, Australia <br>
+                                </div>
+                                <div class="widget_contacts">
+                                    + 123 456 789 <br>
+                                    + 123 456 789 <br>
+                                    <a style="text-decoration: none; color: #fff"
+                                        href="to:support_center@medicenter.au">support_center@medicenter.au</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer_areaitem">
+                    <div class="widget">
+                        <div class="widget_title">
+                            <div class="widget_title_text">Latest Posts</div>
+                            <div class="widget_title_bar"></div>
+                        </div>
+                        <div class="widget_body">
+                            <div class="posts">
+                                <div class="post_resume">
+                                    <i class="fas fa-long-arrow-alt-right"></i>
+                                    Amauri Junior is an oncologist doctor
+                                    who developed many studies for the cancer treatment and
+                                    condecorated the Nobel of
+                                    Medicine Prize.
+                                </div>
+                                <div class="post_date">
+                                    15 years ago
+                                </div>
+                            </div>
+                            <div class="posts">
+                                <div class="post_resume">
+                                    <i class="fas fa-long-arrow-alt-right"></i>
+                                    Bruno Sohara (a.k.a. <i>Yotyan</i>) is a Front-End Developer, RuneScape game
+                                    streamer and youtuber
+                                </div>
+                                <div class="post_date">
+                                    5 years ago
+                                </div>
+                            </div>
+                            <div class="posts">
+                                <div class="post_resume">
+                                    <i class="fas fa-long-arrow-alt-right"></i>
+                                    Many ways for care your health without medicals.
+                                </div>
+                                <div class="post_date">
+                                    1 year ago
+                                </div>
+                            </div>
+                            <div class="posts">
+                                <div class="post_resume">
+                                    <i class="fas fa-long-arrow-alt-right"></i>
+                                    Amauri Junior is an oncologist doctor
+                                    who developed many studies for the cancer treatment and
+                                    condecorated the Nobel of
+                                    Medicine Prize.
+                                </div>
+                                <div class="post_date">
+                                    15 years ago
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer_areaitem">
+                    <div class="widget">
+                        <div class="widget_title">
+                            <div class="widget_title_text">Latest Nadas</div>
+                            <div class="widget_title_bar"></div>
+                        </div>
+                        <div class="widget_body">
+                            ...
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer_copyright">
+                ® Medicenter - All rights reserved
+            </div>
+        </div>
+    </footer>
+
 </body>
+
 </html>
