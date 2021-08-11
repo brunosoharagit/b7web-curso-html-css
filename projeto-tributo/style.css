@@ -7,6 +7,30 @@
     'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+.container {
+    width: 990px;
+    display: flex;
+    justify-content: center;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.center {
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+/* #region HEADER */
+header {
+    background-color: #1a1a1a;
+    display: flex;
+    justify-content: center;
+    height: 90px;
+}
+
 #banner {
     text-align: center;
     padding: 20px;
@@ -21,6 +45,7 @@
 #banner img {
     margin-top: 60px;
     height: 300px;
+    width: 300px;
 }
 
 #banner h1 {
@@ -30,3 +55,120 @@
 #banner h3 {
     font-size: 25px;
 }
+/* #endregion */
+
+/* #region MENU */
+#menu {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    height: auto;
+    padding: 40px;
+    background-color: #1a1a1a;
+    justify-content: center;
+}
+
+nav ul,
+nav li{
+    list-style: none;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav li a {
+    padding: 15px;
+    color: #efefef;
+    text-decoration: none;
+    font-weight: 200;
+}
+
+nav li a:hover {
+    background-color: #434343;
+    transition: 500ms;
+}
+/* #endregion */
+
+/* #region BIOGRAPHY */
+#biography {
+    margin-top: 90px;
+    display: column;    
+    align-items: center;
+    height: auto;
+    padding: 40px;
+    justify-content: center;
+}
+
+#biography .title h1{
+    font-size: 75px;
+    font-weight: 200;
+}
+
+#biography .text {
+    font-weight: 200;
+    text-align: justify;
+    padding: 40px;
+}
+/* #endregion */
+
+/* #region WORKS */
+#works {
+    display: column;    
+    align-items: center;
+    height: auto;
+    padding: 40px;
+    justify-content: center;
+}
+
+#works .title {
+    text-align: center;
+}
+
+#works .title h1 {
+    font-size: 75px;
+    font-weight: 200;
+}
+
+#works .line1 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+#works .line2 {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+}
+
+#works .banners {
+    margin-top: 40px;
+    display: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+#works .banners .banner img{
+    padding: 25px;
+    height: 250px;
+    width: 150px;
+}
+/* #endregion */
+
+/* #region FOOTER */
+footer {
+    height: auto;
+    background-color: #5a5a5a;
+    text-align: center;
+}
+
+footer h1 {
+    padding: 25px;
+    font-weight: 200;
+    font-size: 15px;
+    color: #fff;
+}
+/* #endregion */
