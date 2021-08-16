@@ -14,3 +14,23 @@ input[type="password"] {
 [required]{
     background-color: #222;
 }
+
+a[href^="http:"] {
+    background-color: #abcdef;
+}
+
+a[href^="https:"]{
+    color: #444;
+}
+
+a[href*="mundo"] {
+    background-color: red;
+}
+
+a[href*="tecnologia"] {
+    background-color: #34aade;
+}
+
+a[href$="html"]{
+    background-color: #9abcde;
+}
