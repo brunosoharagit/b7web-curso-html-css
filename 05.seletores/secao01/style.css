@@ -1,0 +1,16 @@
+input, a {
+    display: flex;
+}
+
+input[required] {
+    background-color: #aaddee;
+}
+
+input[type="password"] {
+    background-color: #220022;
+    color: #fff;
+}
+
+[required]{
+    background-color: #222;
+}
