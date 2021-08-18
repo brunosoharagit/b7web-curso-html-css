@@ -1,0 +1,7 @@
+div:nth-child(3){
+    background-color: brown;
+}
+
+div:nth-child(1){
+    background-color: #999;
+}
