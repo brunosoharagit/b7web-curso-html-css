@@ -1,4 +1,4 @@
-div {
+/* div {
     height: 100px;
     width: 100px;
     background-color: #999999;
@@ -12,4 +12,8 @@ div:first-child {
 div:last-of-type {
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
+}    */
+
+body :not(p){
+    background-color: #999;
 }
