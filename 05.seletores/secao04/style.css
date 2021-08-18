@@ -14,6 +14,6 @@ div:last-of-type {
     border-bottom-right-radius: 50%;
 }    */
 
-body :not(p){
+/* body :not(p){
     background-color: #999;
-}
+} */
