@@ -1,5 +1,7 @@
 body {
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 div {
@@ -35,4 +37,48 @@ div::before {
     width: 50px;
     background-color: #9dca33;
     padding: 5px;
+}
+
+.balao {
+    background-color: #aaaaff;
+    display: inline-block;
+    color: #fff;
+    padding: 40px;
+    border-radius: 20px;
+
+    font-size: 20px;
+    text-align: justify;
+}
+
+.balao::after {
+    content: '';
+    display: block;
+    position: absolute; 
+    margin-left: 75%;
+    margin-top: 20px;
+
+    border: 50px solid;
+    border-color: #aaaaff transparent transparent transparent;
+}
+
+.balao2 {
+    background-color: #ffaaff;
+    display: inline-block;
+    color: #fff;
+    padding: 40px;
+    border-radius: 20px;
+
+    margin-top: 50px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.balao2::after {
+    content: '';
+    display: block;
+    position: absolute;
+    margin-top: 40px;
+
+    border: 50px solid;
+    border-color: #ffaaff transparent transparent transparent;
 }
