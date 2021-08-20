@@ -3,7 +3,7 @@ body {
     display: flex;
     flex-direction: column;
 }
-
+/* 
 div {
     background-color: #36aae1;
     padding: 20px;
@@ -37,7 +37,7 @@ div::before {
     width: 50px;
     background-color: #9dca33;
     padding: 5px;
-}
+} */
 
 .balao {
     background-color: #aaaaff;
@@ -81,4 +81,27 @@ div::before {
 
     border: 50px solid;
     border-color: #ffaaff transparent transparent transparent;
+}
+
+.balao3 {
+    background-color: #aaffaa;
+    display: inline-block;
+    color: #fff;
+    padding: 40px;
+    border-radius: 20px;
+
+    margin-top: 150px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.balao3::before {
+    content: '';
+    display: block;
+    position: absolute;
+    margin-left: 400px;
+    margin-top: -130px;
+
+    border: 50px solid;
+    border-color: transparent transparent #aaffaa transparent;
 }
