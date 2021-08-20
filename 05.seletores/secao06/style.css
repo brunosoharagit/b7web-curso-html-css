@@ -1,0 +1,38 @@
+body {
+    text-align: center;
+}
+
+div {
+    background-color: #36aae1;
+    padding: 20px;
+}
+
+div::before {
+    content: "";
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background-color: #32cc12;
+}
+
+.nhemon {
+    background-color: #9addff;
+}
+
+.nhemon::before {
+    content: "-->";
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    background-color: #e133fa;
+    padding: 5px;
+}
+
+.nhemon::after {
+    content: "<--";
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    background-color: #9dca33;
+    padding: 5px;
+}
