@@ -1,0 +1,76 @@
+div {
+    margin: auto;
+
+    background-color: rgb(255, 128, 128);
+    height: 300px;
+    width: 300px;
+
+    animation: rotate 6s linear infinite;
+}
+
+.nhemon {
+    margin: auto;
+
+    background-color: rgb(128, 128, 255);
+    height: 300px;
+    width: 300px;
+
+    animation: rotate-reverse 6s linear infinite;
+}
+
+.kishi {
+    margin: auto;
+
+    background-color: rgb(128, 255, 128);
+    height: 300px;
+    width: 300px;
+
+    animation:  scaleY 3s linear infinite;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg)
+    }
+    50% {
+        transform: rotate(180deg)
+    }
+    100%{
+        transform: rotate(360deg)
+    }
+}
+
+@keyframes scaleY {
+    0% {
+        transform: scaleY(0);
+    }
+
+    25% {
+        transform: scaleY(0.5);
+    }
+
+    50% {
+        transform: scaleY(1);
+    }
+
+    75% {
+        transform: scaleY(0.5);
+    }
+
+    100% {
+        transform: scaleY(0);
+    }
+
+}
+
+@keyframes rotate-reverse {
+    0% {
+        transform: rotate(0deg)
+    }
+    50% {
+        transform: rotate(-180deg)
+    }
+    100%{
+        transform: rotate(-360deg)
+    }
+}
