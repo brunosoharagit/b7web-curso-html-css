@@ -11,10 +11,32 @@
 <body>
 
    <form action="">
-    <input type="text" autocomplete="off" name="user" class="text" placeholder="USU4R10123">
+    <label for="user">
+        Usuário:
+        <input type="text" autocomplete="off" name="user" class="text" placeholder="USU4R10123">
+    </label>
     
 
-    <input autocomplete="off" type="password" name="password" class="text" placeholder="senha123">
+    <label for="password">
+        Senha: 
+        <input autocomplete="off" type="password" name="password" class="text" placeholder="senha123">
+    </label>
+
+    <label for="school_grade">
+        Escolaridade: 
+        <select name="school_grade">
+            <option value="-">-</option>
+            <option value="Middle School">Fundamental</option>
+            <option value="High School">Médio</option>
+            <option value="College">Superior</option>
+            <option value="Master Degree">Mestrado</option>
+            <option value="Doctor Degree">Doutorado</option>
+        </select>
+    </label>
+
+    <label for="terms">
+        <input type="checkbox" name="terms"> Li e aceito os Termos de <a href="https://desciclopedia.org/wiki/Desmanuais:Como_dar_o_cu_sem_doer">Dar o Cuzinho</a>
+    </label>
    </form>
 </body>
 </html>
