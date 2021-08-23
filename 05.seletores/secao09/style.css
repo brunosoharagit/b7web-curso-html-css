@@ -1,0 +1,16 @@
+.text {
+    width: 350px;
+    height: 40px;
+    font-size: 30px;
+
+    border: transparent;
+    border-bottom: 3px solid #000;
+}
+
+.text::placeholder{
+    color: #afa;
+}
+
+form input{
+    display: inline-block;
+}
