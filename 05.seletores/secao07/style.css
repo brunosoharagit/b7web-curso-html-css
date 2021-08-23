@@ -63,6 +63,29 @@ div {
 
 }
 
+@keyframes scaleX {
+    0% {
+        transform: scaleX(0);
+    }
+
+    25% {
+        transform: scaleX(0.5);
+    }
+
+    50% {
+        transform: scaleX(1);
+    }
+
+    75% {
+        transform: scaleX(0.5);
+    }
+
+    100% {
+        transform: scaleX(0);
+    }
+
+}
+
 @keyframes rotate-reverse {
     0% {
         transform: rotate(0deg)

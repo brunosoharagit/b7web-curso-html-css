@@ -1,0 +1,31 @@
+/* 
+    * {
+        box-sizing: border-box;
+    }
+*/
+
+div {
+    height: 200px;
+    width: 200px;
+    background-color: #ff0;
+
+    border: 10px solid #faa;
+    /* box-sizing: content-box */
+    box-sizing: border-box;
+
+    margin: auto;
+}
+
+@keyframes rotateDiv {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(180deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
