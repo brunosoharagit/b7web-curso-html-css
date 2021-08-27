@@ -6,17 +6,20 @@
     background-color:  default;
     border-radius: 10px;
     padding: 20px;
-    text-align: right;
+    text-align: center;
 }
 
 .screen h1 {
     font-weight: 100;
     font-size: 50px;
+    margin-bottom: 40px;
 }
 
 .container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 5px;
 }
 
 .item {
@@ -26,13 +29,17 @@
     font-size: 40px;
     font-weight: 100;
     padding: 10px;
-    margin: 1px;
     text-align: center;
+}
+
+.item:hover {
+    opacity: 0.5;
 }
 
 .container2 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px 50px;
 }
 
 .call,
