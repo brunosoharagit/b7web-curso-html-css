@@ -20,6 +20,11 @@
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 10px;
     grid-row-gap: 5px;
+
+    /*
+        column-gap: 10px;
+        row-gap: 5px;
+    */
 }
 
 .item {
@@ -40,6 +45,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 50px 50px;
+    /*gap: 50px 50px*/
 }
 
 .call,
