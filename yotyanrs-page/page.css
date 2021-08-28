@@ -60,6 +60,11 @@ nav a:hover {
     transition: 800ms;
 }
 
+.presentation {
+    margin-top: 75px;
+    margin-bottom: 45px;
+}
+
 .presentation h1 {
     margin: 15px;
     margin-left: 20px;
@@ -78,6 +83,20 @@ nav a:hover {
     text-shadow: 5px 5px 5px #000;
     color: #fff;
     text-align: center;
+}
+/* #endregion */
+
+/* #region TITLE */
+#title {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+#title h1 {
+    font-size: 80px;
+    color: #7a7a7a;
+    text-shadow: 5px 5px 5px #111;
 }
 /* #endregion */
 
@@ -141,5 +160,6 @@ nav a:hover {
 .bottom {
     top: initial;
     bottom: 0;
+    margin: 0;
 }
 /* #enderegion */
