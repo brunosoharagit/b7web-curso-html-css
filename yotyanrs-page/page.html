@@ -11,23 +11,25 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
 <body>
 
     <header>
         <div class="container">
-            <div class="navbar">
+            <div class="navbar" data-aos="zoom-in" data-aos-once="true" data-aos-duration="2000">
                 <div class="logo">
                     <a href="">
-                        <img src="https://www.runeclan.com/images/chat_head.php?a=Yotyan" alt="Avatar profile">
+                        <img src="https://runepixels.com:5001/m=avatar-rs/Yotyan/chat.png" alt="Avatar profile">
                     </a>
                 </div>
 
                 <div class="menu">
                     <nav>
                         <ul>
-                            <li><a href="">About me</a></li>
+                            <li><a href="">Timeline</a></li>
                             <li><a href="">Signature</a></li>
                             <li><a href="">Achievements</a></li>
                             <li><a href="">Social media</a></li>
@@ -43,19 +45,90 @@
         </div>
     </header>
 
-    <section id="signature">
-        <div class="container">
-            <div class="title">
-                <h1>Signature</h1>
-            </div>
-            <div class="signature-line"></div>
-            <div class="signature-banner">
-                <a href="http://www.runeclan.com/uid/1673392">
-                    <img src="http://www.runeclan.com/signature/user/1673392/user1-dark.png" alt="Yotyan on RuneClan" />
-                </a>
-            </div>
+    <section id="timeline">
+        <div class="timeline-component">
+            <div class="timeline-date right">Jan/2010</div>
         </div>
+
+        <div class="timeline-middle">
+            <div class="timeline-point"></div>
+        </div>
+
+        <div class="timeline-component bgc">
+            <h2 class="timeline-title">
+                Creation
+            </h2>
+            <p class="timeline-paragraph">
+                My first steps on the game. <br/>
+                Also: Dungeoneering skill release.
+            </p>
+        </div>
+
+        <div class="timeline-component bgc">
+            <h2 class="timeline-title">
+                99 Woodcutting
+            </h2>
+            <p class="timeline-paragraph">
+                My first 99 skill level has achieved. <br>
+                Also: Araxxor release.
+            </p>
+        </div>
+
+        <div class="timeline-middle">
+            <div class="timeline-point"></div>
+        </div>
+
+        <div class="timeline-component">
+            <div class="timeline-date">Jul/2014</div>
+        </div>
+    
+        <div class="timeline-component">
+            <div class="timeline-date right">Abr/2020</div>
+        </div>
+
+        <div class="timeline-middle">
+            <div class="timeline-point"></div>
+        </div>
+
+        <div class="timeline-component bgc">
+            <h2 class="timeline-title">
+                Solaria Clan
+            </h2>
+            <p class="timeline-paragraph">
+                After 5 years as a member of Ylem Clan, I joined them. <br>
+                Also: Archaeology skill release.
+            </p>
+        </div>
+
+        <div class="timeline-component bgc">
+            <h2 class="timeline-title">
+                Max cape
+            </h2>
+            <p class="timeline-paragraph">
+                After 11 years of game, achieved the important achievement. <br>
+                Also: GWD3 release.
+            </p>
+        </div>
+
+        <div class="timeline-middle">
+            <div class="timeline-point"></div>
+        </div>
+
+        <div class="timeline-component">
+            <div class="timeline-date">Ago/2021</div>
+        </div>
+
+        
+
     </section>
+
+    <section id="timeline">
+        
+    </section>
+
+    <script>
+        AOS.init();
+    </script>
 
 </body>
 
