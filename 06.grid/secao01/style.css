@@ -45,6 +45,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 50px 50px;
+    margin: 5px;
     /*gap: 50px 50px*/
 }
 
@@ -59,4 +60,14 @@
 
 .cancel {
     background-color: #ff5555;
+}
+
+@media (max-width: 768px) {
+
+    .screen h1 {
+        font-weight: 100;
+        font-size: 30px;
+        margin-bottom: 40px;
+    }
+
 }
