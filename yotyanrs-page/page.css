@@ -164,3 +164,75 @@ nav a:hover {
     margin: 0;
 }
 /* #enderegion */
+
+/* #region SIGNATURE  */
+.container2{
+    width: 990px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    flex-direction: column;
+}
+
+#signature {
+    display: flex;
+    justify-content: center;
+
+}
+
+.title {
+    display: flex;
+    align-items: center;
+}
+
+.title h1 {
+    font-size: 50px;
+}
+
+.sign-image {
+    display: flex;
+    align-items: center;
+
+    margin-top: 40px;
+}
+
+.sign-image img {
+    height: 200px;
+}
+
+/* #endregion */
+
+/* #region FOOTER  */
+footer {
+    display: flex;
+    justify-content: space-around;
+
+    height: auto;
+    background-color: #2a2a2a;
+    color: #fff;
+    padding: 90px;
+
+}
+
+.title {
+    margin-bottom: 100px;
+}
+
+.banners {
+    display: flex;
+    justify-content: space-around;
+}
+
+.banner1,
+.banner2,
+.banner3 {
+    background-color: #3d3d3d;
+    padding: 50px;
+}
+
+i {
+    font-size: 200px;
+}
+/* #endregion */
