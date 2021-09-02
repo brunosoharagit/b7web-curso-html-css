@@ -22,6 +22,8 @@
     - columns: colunas
 */
 
+/* Parte 1 - introdução a grid-column e grid-row*/
+/* 
 .item1 {
     grid-column-start: 1;
     grid-column-end: 4;
@@ -41,4 +43,50 @@
 
     grid-row-start: 5;
     grid-row-end: 7;
+} */
+
+
+/* Parte 2 - alinhamento e posição*/
+/* .item7 {
+    background-color: #ff9999;
+
+    grid-column-start: 3;
+    grid-column-end: 4;
+
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+
+.item5 {
+    background-color: #ffff00;
+    color: #000;
+
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+    grid-row-start: 4;
+    grid-row-end: 5;
+
+}
+
+.item11 {
+    background-color: #ffaaff;
+    grid-row-start: 3;
+    grid-row-end: 5;
+} */
+
+/* Parte 3 - forma simplificada*/
+.item1 {
+    /* 01. Sem span */
+    /* grid-column: 1/3;
+    grid-row: 1/3; */
+
+    /* 02. Com span */
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 3;
+}
+
+.item11 {
+    /* grid column: 1/ 4 */
+    grid-column: 1 / span 3;
 }
