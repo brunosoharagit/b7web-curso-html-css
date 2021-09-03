@@ -23,4 +23,14 @@
 
 .item11 {
     grid-column: 1 / span 3;
+    /* 
+    
+        grid-area: 1 / 1 / span 2 / span 4;
+        grid-area:
+            [grid-column-start] / 
+            [grid-row-start] / 
+            [grid-column-end] / 
+            [grid-row-end]; 
+    
+    */
 }
