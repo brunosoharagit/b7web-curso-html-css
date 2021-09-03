@@ -21,6 +21,18 @@
 
 .item1 {
     grid-area: item1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item1 nav ul,
+.item1 nav li {
+    list-style: none;
+}
+
+nav ul {
+    display: flex;
+
 }
 
 .item2 {
