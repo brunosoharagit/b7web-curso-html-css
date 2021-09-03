@@ -4,6 +4,7 @@
 }
 
 .container{
+    padding: 5px;
     display: grid;
     background-color: #999;
     grid-gap: 10px;
@@ -39,4 +40,30 @@ footer {
 
 .adv {
     grid-area: ad;
+}
+
+@media (max-width: 750px) {
+    * {
+        font-size: 10px;
+    }
+    .container {
+        grid-template-areas: 
+            "header header header"
+            "menu menu menu"
+            "content content content"
+            "footer footer ad"
+        ;
+    }
+}
+
+@media (max-width: 500px){
+    .container {
+        grid-template-areas:
+        "header"
+        "menu"
+        "content"
+        "ad"
+        "footer"
+        ;
+    }
 }
