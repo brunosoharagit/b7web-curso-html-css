@@ -231,4 +231,16 @@ footer {
     height: auto;
     color: #fff;
 }
+
+.widget-contact,
+.widget-address {
+    height: 200px;
+    width: 200px;
+    background-color: #78ad33;
+    padding: 15px;
+}
+
+h3 {
+    font-size: 25px;
+}
 /* #enderegion */
