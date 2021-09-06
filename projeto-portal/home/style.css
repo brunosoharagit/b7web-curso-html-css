@@ -12,7 +12,7 @@ body {
 
 .line {
     width: 990px;
-    height: 2px;
+    height: 1px;
     background-color: #989898;
 }
 
@@ -70,7 +70,6 @@ nav a {
     display: block;
     padding: 15px;
     text-decoration: none;
-    text-transform: uppercase;
 }
 
 nav a:hover {
@@ -177,8 +176,12 @@ nav a:hover {
 }
 
 .title {
-    font-size: 30px;
     color: #888;
+}
+
+.title h1 {
+    font-size: 60px;
+    font-weight: 100;
 }
 
 .recent-article {
