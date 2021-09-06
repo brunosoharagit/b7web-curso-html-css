@@ -113,6 +113,10 @@ nav a:hover {
     font-weight: 100;
 }
 
+h3 {
+    font-weight: 100;
+}
+
 .trending-news1 .description {
     font-size: 20px;
     font-weight: 100;
@@ -225,5 +229,6 @@ footer {
 
     background-color: #2f2f2f;
     height: auto;
+    color: #fff;
 }
 /* #enderegion */
