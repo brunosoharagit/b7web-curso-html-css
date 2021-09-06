@@ -10,6 +10,12 @@ body {
     padding: 0;
 }
 
+.line {
+    width: 990px;
+    height: 2px;
+    background-color: #989898;
+}
+
 .container {
     display: flex;
     justify-content: space-between;
@@ -174,4 +180,47 @@ nav a:hover {
     font-size: 30px;
     color: #888;
 }
+
+.recent-article {
+    display: flex;
+    padding: 5px;
+    margin-bottom: 25px;
+}
+
+.recent-article-image img {
+    margin-top: 25px;
+    height: 150px;
+    width: 250px;
+}
+
+.recent-article-elements {
+    padding-left: 10px;
+}
+
+.recent-article-title {
+    font-size: 20px;
+    font-weight: 100;
+    color: #999;
+}
+
+.recent-article-desc {
+    font-size: 15px;
+    font-style: italic;
+    color: #999;
+}
+
+.recent-article-date {
+    font-size: 14px;
+    color: #999;
+}
 /* #endregion */
+
+/* #region FOOTER */
+footer {
+    display: flex;
+    justify-content: center;
+
+    background-color: #2f2f2f;
+    height: auto;
+}
+/* #enderegion */
