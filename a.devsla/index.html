@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,10 +8,17 @@
     <title>Devsla | Projeto flexbox e responsivo</title>
 
     <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
 
-    <header>
+    <header data-aos="fade-up" data-aos-once="true" data-aos-duration="900">
         <div class="left">
             <a href="">
                 <img src="media/images/logo.png" alt="Devsla" class="logo">
@@ -44,15 +52,25 @@
     </header>
 
     <main>
-        <div class="info">
+        <div class="info" data-aos="fade-up" data-aos-once="true" data-aos-duration="1500">
             <h1>Model S</h1>
             <h2>Order Online for <a href="">Touchless Delivery</a></h2>
         </div>
     </main>
-    
+
     <footer>
-        
+        <div class="buttons" data-aos="fade-up" data-aos-once="true" data-aos-duration="3000">
+            <a href="" class="dark-button">custom order</a>
+            <a href="" class="light-button">existing inventory</a>
+        </div>
+        <div class="arrow">
+            <i class="fas fa-chevron-down"></i>
+        </div>
     </footer>
 
+    <script>
+        AOS.init();
+    </script>
 </body>
+
 </html>

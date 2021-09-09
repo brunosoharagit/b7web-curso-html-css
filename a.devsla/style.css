@@ -2,7 +2,14 @@
     --header-color: #000;
     --header-hover-color: rgba(127, 127, 127, 0.75);
     --h1-color: #393c41;
-    --h2-color: #7f7f96;
+    --h2-color: #6e7378;
+
+    --bg-dark: rgba(0,0,0, 0.8);
+    --bg-light: rgba(255,255,255,0.75);
+    --color-light: #373737;
+    --color-dark: #fafafa;
+
+    --chevron-color: #3f3f3f;
 }
 
 /* FONTES */
@@ -32,6 +39,7 @@ header {
     top: 0;
     left: 0;
     right: 0;
+    z-index: 9;
 }
 
 header .logo{
@@ -107,7 +115,7 @@ main .info{
 
 main h1 {
     margin: 0;
-    font-size: 45px;
+    font-size: 50px;
     font-weight: normal;
     color: var(--h1-color);
 }
@@ -116,6 +124,7 @@ main h2 {
     margin: 0;
     font-size: 14px;
     font-weight: lighter;
+    font-family: 'GothamBook', Helvetica, Arial;
     color: var(--h2-color);
 }
 
@@ -125,5 +134,76 @@ main h2 a {
 
 main h2 a:hover {
     font-weight: bold;
+}
+/* #endregion */
+
+/* #region FOOTER */
+footer {
+    display: block;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dark-button,
+.light-button {
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 20px;
+}
+
+.buttons a{
+    padding: 20px;
+    border-radius: 50px;
+    margin: 0 10px;
+    width: 200px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.dark-button{
+    background-color: var(--bg-dark);
+    color: var(--color-dark);
+}
+
+.light-button{
+    background-color: var(--bg-light);
+    color: var(--color-light);
+}
+
+.arrow {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.arrow i {
+    font-size: 35px;
+    animation: jump 2s linear infinite;
+    color: var(--chevron-color);
+}
+
+@keyframes jump {
+    0% {
+        transform:translateY(0px);
+    }
+
+    50% {
+        transform: translateY(20px);
+    }
+
+    100% {
+        transform:translateY(0px);
+    }
 }
 /* #endregion */
