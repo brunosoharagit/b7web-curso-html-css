@@ -1,3 +1,7 @@
+:root {
+    --header-color: #000;
+}
+
 /* FONTES */
 @font-face {
     font-family: GothamMedium;
@@ -19,7 +23,50 @@ body {
 header {
     display: flex;
     justify-content: space-between;
+    align-items: center;    
+    height: 50px;
 }
 
+header .logo{
+    width: 120px;
+    height: 15px;
+    margin-left: 20px;
+}
 
+header .right{
+    margin-right: 20px;
+}
+
+header .middle ul,
+header .right ul {
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+header .middle li,
+header .right li{
+    margin: 0 10px;
+}
+
+header .middle a,
+header .right a{
+    text-decoration: none;
+    color: var(--header-logo);
+}
+
+header .menu-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 18px;
+    height: 16px;
+    cursor: pointer;
+}
+
+header .menu-icon div {
+    height: 2px;
+    width: 16px;
+    background-color: #000;
+}
 /* #endregion */
