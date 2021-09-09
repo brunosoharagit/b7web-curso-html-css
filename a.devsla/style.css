@@ -1,3 +1,4 @@
+/* #region ROOT */
 :root {
     --header-color: #000;
     --header-hover-color: rgba(127, 127, 127, 0.75);
@@ -9,10 +10,14 @@
     --color-light: #373737;
     --color-dark: #fafafa;
 
+    --bg-light-hover: rgba(255, 255, 255, 0.95);
+    --bg-dark-hover: rgba(12,12,12,0.5);
+
     --chevron-color: #3f3f3f;
 }
+/* #endregion */
 
-/* FONTES */
+/* #region FONTES */
 @font-face {
     font-family: GothamMedium;
     src: url(media/fonts/GothamMedium.otf);
@@ -22,6 +27,7 @@
     font-family: GothamBook;
     src: url(media/fonts/GothamBookRegular.otf);
 }
+/* #endregion */
 
 body {
     font-family: 'GothamMedium', Helvetica, Arial;
@@ -180,6 +186,16 @@ footer {
     color: var(--color-light);
 }
 
+.dark-button:hover {
+    background-color: var(--bg-dark-hover);
+    transition: 500ms;
+}
+
+.light-button:hover {
+    background-color: var(--bg-light-hover);
+    transition: 500ms;
+}
+
 .arrow {
     display: flex;
     justify-content: center;
@@ -189,21 +205,23 @@ footer {
 
 .arrow i {
     font-size: 35px;
-    animation: jump 2s linear infinite;
+    animation: jump 1s linear infinite;
     color: var(--chevron-color);
 }
 
 @keyframes jump {
     0% {
-        transform:translateY(0px);
+        transform:translateY(-10px);
     }
 
     50% {
-        transform: translateY(20px);
+        transform: translateY(10px);
     }
 
     100% {
-        transform:translateY(0px);
+        transform:translateY(-10px);
     }
 }
 /* #endregion */
+
+/* #region MEDIA-CONTROL */
