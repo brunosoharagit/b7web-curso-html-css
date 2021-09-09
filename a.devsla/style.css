@@ -1,5 +1,8 @@
 :root {
     --header-color: #000;
+    --header-hover-color: rgba(127, 127, 127, 0.75);
+    --h1-color: #393c41;
+    --h2-color: #7f7f96;
 }
 
 /* FONTES */
@@ -25,6 +28,10 @@ header {
     justify-content: space-between;
     align-items: center;    
     height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 header .logo{
@@ -55,6 +62,12 @@ header .right a{
     color: var(--header-logo);
 }
 
+header .middle a:hover,
+header .right a:hover{
+    color: var(--header-hover-color);
+    transition: 800ms;
+}
+
 header .menu-icon {
     display: flex;
     flex-direction: column;
@@ -68,5 +81,49 @@ header .menu-icon div {
     height: 2px;
     width: 16px;
     background-color: #000;
+}
+
+header .menu-icon div:hover {
+    color: var(--header-hover-color);
+    transition: 800ms;
+}
+/* #endregion */
+
+/* #region MAIN */
+main {
+    background-image: url(media/images/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+main .info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 45vh;
+}
+
+main h1 {
+    margin: 0;
+    font-size: 45px;
+    font-weight: normal;
+    color: var(--h1-color);
+}
+
+main h2 {
+    margin: 0;
+    font-size: 14px;
+    font-weight: lighter;
+    color: var(--h2-color);
+}
+
+main h2 a {
+    color: var(--h1-color);
+}
+
+main h2 a:hover {
+    font-weight: bold;
 }
 /* #endregion */
