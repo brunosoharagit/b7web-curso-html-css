@@ -3,5 +3,67 @@
 /* #endregion */
 
 /* #region FONTS */
+@font-face {
+    font-family: GothanM;
+    src: url(media/fonts/GothamMedium.otf);
+}
 
+@font-face {
+    font-family: GothanB;
+    src: url(media/fonts/GothamBookRegular.otf);
+}
+/* #endregion */
+
+body {
+    font-family: GothanM, Helvetica, Arial;
+}
+
+/* #region HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .left img {
+    height: 85px;
+    width: 100px;
+}
+
+header .middle {
+    margin-left: 150px;
+}
+
+header .middle ul,
+header .right ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+header .middle li,
+header .right li{
+    margin: 0 10px;
+}
+
+header .middle a,
+header .right a {
+    text-decoration: none;
+    padding: 20px;
+    color: #9a9a9a;
+}
+
+header .menu-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 18px;
+    height: 16px;
+    cursor: pointer;
+}
+
+header .menu-icon div {
+    height: 2px;
+    width: 16px;
+    background-color: #9a9a9a;
+}
 /* #endregion */
