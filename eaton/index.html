@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
         integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <body>
     
@@ -26,38 +29,11 @@
                     <div class="mmline"></div>
                     <div class="mmline"></div>
                 </div>
-                <nav>
+                <nav data-aos="fade-left" data-aos-duration="1000" data-aos-once="true">
                     <ul>
-                        <li>
-                            <a href="">
-                                Nossas Soluções
-                                <div class="dropdown-content">
-                                    <a href="#">Link 1</a>
-                                    <a href="#">Link 2</a>
-                                    <a href="#">Link 3</a>
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                Nosso Mecado
-                                <div class="dropdown-content">
-                                    <a href="#">Link 1</a>
-                                    <a href="#">Link 2</a>
-                                    <a href="#">Link 3</a>
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                Nossa Empresa
-                                <div class="dropdown-content">
-                                    <a href="#">Link 1</a>
-                                    <a href="#">Link 2</a>
-                                    <a href="#">Link 3</a>
-                                </div>
-                            </a>
-                        </li>
+                        <li data-aos="fade-left" data-aos-duration="1000" data-aos-once="true"><a href="">Nossas Soluções</a></li>
+                        <li data-aos="fade-left" data-aos-duration="1500" data-aos-once="true"><a href="">Nosso Mecado</a></li>
+                        <li data-aos="fade-left" data-aos-duration="2000" data-aos-once="true"><a href="">Nossa Empresa</a></li>
                     </ul>
                 </nav>
             </div>
@@ -67,7 +43,7 @@
     <main>
         <div class="banner">
             <div class="container">
-                <div class="banner-title">
+                <div class="banner-title" data-aos="fade-left" data-aos-duration="1000" data-aos-once="true">
                     <h1>Valinhos</h1>
                 </div>
             </div>
@@ -75,7 +51,7 @@
 
         <div class="description">
             <div class="container">
-                <div class="left">
+                <div class="left" data-aos="fade-right" data-aos-duration="2000" data-aos-once="true">
                     <div class="title">
                         <h1>Eaton Transmissões - Valinhos</h1>
                     </div>
@@ -83,7 +59,7 @@
                         <img src="http://photos.wikimapia.org/p/00/00/93/99/10_big.jpg" alt="">
                     </div>
                 </div>
-                <div class="right"> 
+                <div class="right" data-aos="fade-left" data-aos-duration="2000" data-aos-once="true"> 
                     <p>
                         A Eaton Divisão Transmissões iniciou suas atividades nesta planta em 1996, a partir da aquisição
                         da empresa Equipamentos Clark Ltda. (no Brasil desde 1959), e da consolidação com a
@@ -196,6 +172,10 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        AOS.init();
+    </script>
 
 </body>
 </html>
