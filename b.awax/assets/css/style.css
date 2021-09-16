@@ -9,6 +9,7 @@ body {
     font-size: 13px;
 }
 
+/* #region HEADER */
 header {
     height: 100px;
     background-color: #0d0d0d;
@@ -63,7 +64,19 @@ header {
 
 .menu li a:hover,
 .menu .active a {
-    background-color: #111111;
+    color: #AAA;
     border-bottom: 5px solid #b28756;
     transition: 500ms;
 }
+/* #endregion */
+
+/* #region MAIN */
+.banner {
+    height: calc(100vh - 100px);
+    background-color: #777;
+    background-image: url('/b.awax/complementos/bg.jpg');
+    background-size: cover;
+    background-position: bottom;
+}
+/* #endregion */
+
