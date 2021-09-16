@@ -1,0 +1,213 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+.container {
+    width:990px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menuMobi {
+    display: none;
+    width: 40px;
+    height: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+}
+
+.mmline {
+    height: 2px;
+    background-color: #39aae1;
+}
+
+body {
+    font-family: -apple-system, 
+    BlinkMacSystemFont, 'Segoe UI',
+    Roboto, Oxygen, Ubuntu, Cantarell, 
+    'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(0, 94, 184);
+}
+
+/* #region HEADER */
+header {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo a img{
+    cursor: pointer;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    margin:0;
+    padding:0;
+}
+
+nav ul, 
+nav li {
+    list-style: none;
+}   
+
+nav ul {
+    display:flex;
+}
+
+nav li {
+    padding: 0 15px;
+}
+
+nav li a {
+    text-decoration: none;
+    color:rgb(0, 94, 184);
+    font-weight: bold;
+    padding: 15px;
+}
+
+nav li a:hover {
+    background-color: rgb(0, 94, 184);
+    color: #fff;
+    transition: 500ms;
+}
+/* #endregion */
+
+/* #region MAIN */
+main {
+    display: block;
+}
+.banner {
+    height: calc(100vh - 100px);
+    background-image: url('/eaton/media/bg.png');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.banner-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.banner-title h1 {
+    font-size: 120px;
+    text-shadow: 5px 5px 5px #000;
+}
+
+.description {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+    margin-bottom: 300px;
+}
+
+.left {
+    margin-right: 70px;
+}
+
+.left .img  img{
+    height: 400px;
+    width: 500px;
+}
+
+.right {
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: justify;
+}
+/* #endregion */
+
+/* #region FOOTER */
+footer {
+    background-color: #CCC;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.prod-menu,
+.mark-menu,
+.comp-menu,
+.sm-menu,
+.term-menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.prod-menu a,
+.mark-menu a,
+.comp-menu a,
+.sm-menu a,
+.term-menu a{
+    text-decoration: none;
+    color: rgb(0, 94, 184);
+}
+
+.prod-menu a:hover,
+.mark-menu a:hover,
+.comp-menu a:hover,
+.sm-menu a:hover,
+.term-menu a:hover{
+    text-decoration: underline;
+}
+
+.term-menu .allrights {
+    margin-top: 20px;
+    color: #888;
+} 
+/* #endregion */
+
+
+/* #region MEDIA */
+@media (max-Width: 750px){
+    .menu {
+        display: none;
+    }
+
+    .description{
+        display: block;
+    }
+
+    .menuMobi {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding-right: 20px;
+    }
+
+    main {
+        display: block;
+    }
+
+    .description{
+        display: block;
+    }
+
+    .description .right {
+        flex: 1;
+    }
+
+    .prod-menu,
+    .mark-menu,
+    .sm-menu,
+    .comp-menu,
+    .term-menu {
+        display: flex;
+        flex-direction: column;
+    }
+}
+/* #endregion */
