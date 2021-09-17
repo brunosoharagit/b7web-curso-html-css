@@ -121,6 +121,7 @@ main {
 .left .img  img{
     height: 400px;
     width: 500px;
+    border-radius: 30px;
 }
 
 .right {
