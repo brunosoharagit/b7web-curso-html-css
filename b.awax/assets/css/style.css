@@ -1,3 +1,10 @@
+:root {
+    --bg-light: #e3e3e3;
+    --bg-dark: #3f3f3f;
+    --font-light: #2d2d2d;
+    --font-dark: #d5d5d5;
+}
+
 * {
     margin:0;
     padding:0;
@@ -11,12 +18,13 @@ body {
 }
 
 .light {
-    color: #0f0f0f;
+    background-color: var(--bg-light);
+    color: var(--font-light);
 }
 
 .dark {
-    color: #dedede;
-    background-color: #2d2d2d;
+    background-color: var(--bg-dark);
+    color: var(--font-dark);
 }
 
 /* #region HEADER */
@@ -82,7 +90,7 @@ header {
 /* #endregion */
 
 /* #region MAIN */
-/* banner como todo */
+/* a. banner como todo */
 .banner {
     height: calc(100vh - 100px);
     background-color: #777;
@@ -175,8 +183,36 @@ header {
     transition: 500ms;
 }
 
+/* b. DEFAULT */
+
 .default {
-    background-color: red;
+    padding: 50px 0; 
 }
+
+.default .description-title,
+.default .description-descr {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.default .description-title {
+    font-size: 20px;
+}
+
+.default .description-descr {
+    font-size: 11px;
+    color: #979797;
+    margin-top: 10px; 
+    margin-bottom: 40px;
+}
+
+.default .description-body {
+    background-color: #979797;
+    max-width: 1140px;
+    min-height: 100px;
+    margin:auto;
+}
+
 /* #endregion */
 
