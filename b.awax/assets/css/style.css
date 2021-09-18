@@ -7,12 +7,13 @@
 body {
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     font-size: 13px;
+    overflow-x: hidden;
 }
 
 /* #region HEADER */
 header {
     height: 100px;
-    background-color: #0d0d0d;
+    background-color: #2d2d2d;
     color: #fff;
 }
 
@@ -54,7 +55,7 @@ header {
     color: #fff;
     font-weight: 500;
     height: 100px;
-    border-bottom: 5px solid #0d0d0d;
+    border-bottom: 5px solid #2d2d2d;
 
     /* padrão - display:inline */
     /* display para altura: flex */
@@ -163,6 +164,10 @@ header {
 .banner .pointer:hover{
     background-color: #d4a978;
     transition: 500ms;
+}
+
+.default {
+    background-color: red;
 }
 /* #endregion */
 
