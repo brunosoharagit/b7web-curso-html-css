@@ -1,6 +1,6 @@
 :root {
     --bg-light: #e3e3e3;
-    --bg-dark: #3f3f3f;
+    --bg-dark: #090909;
     --font-light: #2d2d2d;
     --font-dark: #d5d5d5;
 }
@@ -15,6 +15,21 @@ body {
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     font-size: 13px;
     overflow-x: hidden;
+}
+
+.button {
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    color: #fff;
+    background-color: #b28756;
+    padding: 10px 30px;
+    margin-top: 30px;
+    border-radius: 30px;
+
+    font-size: 11px;
+    font-weight: 600;
 }
 
 .light {
@@ -93,7 +108,7 @@ header {
 /* a. banner como todo */
 .banner {
     height: calc(100vh - 100px);
-    background-color: #777;
+    background-color: var(--bg-dark);
     background-image: url('/b.awax/complementos/bg.jpg');
     background-size: cover;
     background-position: bottom;
@@ -137,20 +152,6 @@ header {
 .banner .slidearea h2 {
     font-size: 20px;
     margin-top: 5px;
-}
-
-.banner .slidearea a {
-    text-transform: uppercase;
-    text-decoration: none;
-
-    color: #fff;
-    background-color: #b28756;
-    padding: 10px 30px;
-    margin-top: 30px;
-    border-radius: 30px;
-
-    font-size: 11px;
-    font-weight: 600;
 }
 
 .banner .slidearea a:hover {
@@ -208,11 +209,69 @@ header {
 }
 
 .default .description-body {
-    background-color: #979797;
     max-width: 1140px;
     min-height: 100px;
     margin:auto;
 }
+
+/* DESCRIPTION  - a. about*/
+.description-about {
+    display: flex;
+}
+
+.description-about-left {
+    flex: 1;
+    padding: 50px;
+}
+
+.description-about-left p {
+    line-height: 22px;
+    text-align: justify;
+}
+
+.description-about-left a:hover {
+    background-color: #c39867;
+    transition: 500ms;
+}
+
+.description-about-right {
+    width: 500px;
+    text-align: center;
+}
+.description-about-right img {
+    width: 500px;
+    box-shadow: 0px 0px 15px #000;
+}
+
+.description-services {
+    display: flex;
+}
+
+.description-service {
+    flex:1;
+    text-align: center;
+    border-left: 1px solid #333;
+    padding: 15px;
+}
+
+/* o :last-of-type é substituto do :last-child (provavel versao incompatível) */
+.description-service:last-of-type {
+    border-right: 1px solid #333;
+}
+
+.description-service h4 {
+    text-transform: uppercase;
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.description-service p {
+    margin-top: 10px;
+    font-size: 13px;
+    color: #999;
+}
+
+/* DESCRIPTION - b. services */
 
 /* #endregion */
 
