@@ -24,12 +24,17 @@ body {
 
     color: #fff;
     background-color: #b28756;
-    padding: 10px 30px;
+    padding: 15px 35px;
     margin-top: 30px;
     border-radius: 30px;
 
     font-size: 11px;
     font-weight: 600;
+}
+
+.button:hover {
+    background-color: #c39867;
+    transition: 500ms;
 }
 
 .light {
@@ -313,6 +318,152 @@ header {
 .description-project-filters li:first-child {
     border-left:0;
 }
+
+.description-project-photos {
+    width: 100vw;
+    max-width: 1140px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.description-project-photo {
+    width: 280px;
+}
+
+.description-project-photoarea {
+    margin: 10px;
+    width: 260px;
+    height: 160px;
+}
+
+.description-project-photoarea img {
+    width: inherit;
+    height: inherit;
+}
+
+.description-project-photoinfo {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--font-dark);
+    display: none;
+}
+
+.description-project-photoinfo h5 {
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.description-project-photoinfo p {
+    font-size: 10px;
+}
+
+.description-project-photoarea:hover .description-project-photoinfo {
+    display: flex;
+    position: absolute;
+    background-color: rgba(0,0,0,0.75);
+    width:inherit;
+    height:inherit;
+    transition: 300ms;
+    animation: fade 0.5s;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+}
+
+.team-bg {
+    background-image: url('../../complementos/bg.jpg');
+    background-position: top;
+    background-size: cover;
+    padding:0;
+}
+
+.description-team {
+    background-color: rgba(0, 0, 0, 0.85);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.sec-team {
+    overflow: hidden;
+    max-width: 880px;
+    margin:auto;
+}
+
+.sec-team .slider{
+    height: 100%;
+    width: 1000vw;
+}
+
+.sec-team .slide {
+    height: 100%;
+    width: 280px;
+    display:inline-block;
+    background-color: #fff;
+    margin-right: 20px;
+    min-height: 300px;
+}
+
+.sec-team .slidearea {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    height: 100%;
+}
+
+.sec-team .slidearea h1,
+.sec-team .slidearea h2 {
+    text-transform: uppercase;
+}
+
+.sec-team .slidearea h1 {
+    font-size: 50px;
+}
+
+.sec-team .slidearea span {
+    color: #b28756;
+}
+
+.sec-team .slidearea h2 {
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.sec-team .slidearea a:hover {
+    opacity: 0.5;
+    transition: 500ms;
+}
+
+.description-team .slide-pointer {
+    margin-top: 50px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.description-team .pointer {
+    height: 20px;
+    width: 20px;
+    border: 2px solid #b28756;
+    border-radius: 50%;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.description-team .pointer.active,
+.description-team .pointer:hover{
+    background-color: #d4a978;
+    transition: 500ms;
+}
+
 
 /* #endregion */
 
