@@ -505,5 +505,63 @@ header {
 .worker-socialmedia .active {
     background-color: var(--default-hover-color);
 }
+
+.client-review {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.client-name {
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.client-role {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.review-icon {
+    margin-top: 50px;
+}
+
+.client-review-text {
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.client-review-text p {
+    text-align: center;
+    line-height: 25px;
+}
+
+.description-client .slide-pointer {
+    margin-top: 100px;
+    width: 100vw;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.description-client .pointer {
+    height: 20px;
+    width: 20px;
+    border: 2px solid var(--default-color);
+    border-radius: 50%;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.description-client .pointer.active,
+.description-client .pointer:hover{
+    background-color: #d4a978;
+    transition: 500ms;
+}
+
 /* #endregion */
 
