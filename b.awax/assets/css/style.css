@@ -3,6 +3,8 @@
     --bg-dark: #090909;
     --font-light: #2d2d2d;
     --font-dark: #d5d5d5;
+    --default-color: #b28756;
+    --default-hover-color: #c39867;
 }
 
 * {
@@ -23,7 +25,7 @@ body {
     text-decoration: none;
 
     color: #fff;
-    background-color: #b28756;
+    background-color: var(--default-color);
     padding: 15px 35px;
     margin-top: 30px;
     border-radius: 30px;
@@ -33,7 +35,7 @@ body {
 }
 
 .button:hover {
-    background-color: #c39867;
+    background-color: var(--default-hover-color);
     transition: 500ms;
 }
 
@@ -75,7 +77,7 @@ header {
 .logoimg {
     width: 80px;
     height: 80px;
-    background-color: #b28756;
+    background-color: var(--default-color);
     border-radius: 50%;
 }
 
@@ -104,7 +106,7 @@ header {
 .menu li a:hover,
 .menu .active a {
     color: #AAA;
-    border-bottom: 5px solid #b28756;
+    border-bottom: 5px solid var(--default-color);
     transition: 500ms;
 }
 /* #endregion */
@@ -151,7 +153,7 @@ header {
 }
 
 .banner .slidearea span {
-    color: #b28756;
+    color: var(--default-color);
 }
 
 .banner .slidearea h2 {
@@ -160,7 +162,7 @@ header {
 }
 
 .banner .slidearea a:hover {
-    opacity: 0.5;
+    opacity: 0.1;
     transition: 500ms;
 }
 
@@ -177,7 +179,7 @@ header {
 .banner .pointer {
     height: 20px;
     width: 20px;
-    border: 2px solid #b28756;
+    border: 2px solid var(--default-color);
     border-radius: 50%;
     margin: 0 10px;
     cursor: pointer;
@@ -235,7 +237,7 @@ header {
 }
 
 .description-about-left a:hover {
-    background-color: #c39867;
+    background-color: var(--default-hover-color);
     transition: 500ms;
 }
 
@@ -311,7 +313,7 @@ header {
 
 .description-project-filters li:hover,
 .description-project-filters .active{
-    border-bottom: 3px solid #b28756;
+    border-bottom: 3px solid var(--default-color);
     transition: 500ms;
 }
 
@@ -414,7 +416,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: #fff;
+    color: #000;
     height: 100%;
 }
 
@@ -428,7 +430,7 @@ header {
 }
 
 .sec-team .slidearea span {
-    color: #b28756;
+    color: var(--default-color);
 }
 
 .sec-team .slidearea h2 {
@@ -452,7 +454,7 @@ header {
 .description-team .pointer {
     height: 20px;
     width: 20px;
-    border: 2px solid #b28756;
+    border: 2px solid var(--default-color);
     border-radius: 50%;
     margin: 0 10px;
     cursor: pointer;
@@ -460,10 +462,48 @@ header {
 
 .description-team .pointer.active,
 .description-team .pointer:hover{
-    background-color: #d4a978;
+    background-color: var(--default-hover-color);
     transition: 500ms;
 }
 
+.worker-image{
+    width: 150px;
+    height: auto;
+    margin-top: 10px;
+}
 
+.worker-name {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.worker-role {
+    font-size: 10px;
+    margin-top: 5px;
+}
+
+.worker-socialmedia {
+    display: flex;
+    margin-top: 10px;
+}
+
+.worker-socialmedia a{
+    margin: 5px 5px;
+    background-color: #aaa;
+    padding: 5px;
+    text-decoration: none;
+    width: 30px;
+    height: 30px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.worker-socialmedia .active {
+    background-color: var(--default-hover-color);
+}
 /* #endregion */
 
