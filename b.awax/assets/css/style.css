@@ -5,6 +5,14 @@
     --font-dark: #d5d5d5;
     --default-color: #b28756;
     --default-hover-color: #c39867;
+
+    --line-color: #999;
+
+    --color-twitter: #88d5e1;
+    --color-linkedin: #287cc1;
+    --color-facebook: #3661e1;
+    --color-googleplus: #d23939;
+    --color-pinterest: #d51d1d;
 }
 
 * {
@@ -650,5 +658,120 @@ header {
     background-color: var(--default-hover-color);
     transition: 500ms;
 }
+
+.description-facts {
+    display: flex;
+}
+
+.description-fact {
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+}
+
+.description-fact .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.description-fact .item h1 {
+    font-size: 40px;
+    color: var(--default-color);
+}
+
+.description-fact .item .line {
+    margin-top: 15px;
+    background-color: var(--line-color);
+    height: 3px;
+    width: 20px;
+}
+
+.description-fact .item h3 {
+    margin-top: 10px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.description-fact .item p {
+    margin-top: 30px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.socialmedia {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.sm-share {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.sm-share h4 {
+    margin-left: 10px;
+    color: var(--font-dark);
+}
+
+.sm-share-icon {
+    padding: 10px;
+    display: flex;
+    margin: 5px;
+}
+
+.sm-share-icon h4 {
+    margin-left: 10px;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: var(--font-dark)
+}
+
+.sm-share-twitter {
+    background-color: var(--color-twitter);
+    padding: 12px;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+
+.sm-share-linkedin {
+    background-color: var(--color-linkedin);
+    padding: 12px;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+
+.sm-share-facebook {
+    background-color: var(--color-facebook);
+    padding: 12px;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+
+.sm-share-googleplus {
+    background-color: var(--color-googleplus);
+    padding: 12px;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+
+.sm-share-pinterest {
+    background-color: var(--color-pinterest);
+    padding: 12px;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+
 /* #endregion */
 
