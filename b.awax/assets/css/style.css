@@ -119,6 +119,8 @@ header {
 }
 /* #endregion */
 
+
+
 /* #region MAIN */
 /* a. banner como todo */
 .banner {
@@ -806,6 +808,72 @@ header {
 } 
 .section-contact input[type="submit"]{
     border: 0;
+}
+/* #endregion */
+
+
+
+/* #region FOOTER */
+footer .left .footer-socialmedia .active {
+    background-color: var(--default-color);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer .left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:0;
+}
+
+footer .left .footer-socialmedia{
+    display: flex;
+}
+
+footer .left .footer-socialmedia .sm-icon {
+    padding: 12px;
+    height: 40px;
+    width: 40px;
+    margin: 0 10px;
+    border-radius: 50%;
+    background-color: var(--font-light);
+}
+
+footer .left .footer-copyright {
+    text-transform: uppercase;
+}
+
+footer .middle {
+    text-align: justify;
+}
+
+footer .right {
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .right .footer-email {
+
+}
+
+footer input[type="email"] {
+    border: 0;
+    background-color: transparent;
+    color: var(--font-dark);
+    border-bottom: 2px solid #ccc;
+    text-align: center;
+    height: 40px;
+    width: 100%;
+    outline:0;
+}
+
+footer input[type="submit"]{
+    border:0;
 }
 /* #endregion */
 
