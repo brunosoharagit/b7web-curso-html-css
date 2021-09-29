@@ -813,66 +813,98 @@ header {
 
 
 
-/* #region FOOTER */
-footer .left .footer-socialmedia .active {
-    background-color: var(--default-color);
-}
-
-footer {
+/* #region PREMIUM */
+.description-about {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 
-footer .left{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding:0;
+.premium-left {
+    flex: 1;
+    padding: 50px;
 }
 
-footer .left .footer-socialmedia{
-    display: flex;
-}
-
-footer .left .footer-socialmedia .sm-icon {
-    padding: 12px;
-    height: 40px;
-    width: 40px;
-    margin: 0 10px;
-    border-radius: 50%;
-    background-color: var(--font-light);
-}
-
-footer .left .footer-copyright {
-    text-transform: uppercase;
-}
-
-footer .middle {
+.premium-right {
+    width: 500px;
+    padding: 55px;
     text-align: justify;
 }
+.first-feature,
+.second-feature,
+.third-feature {
+    display: flex;
+    margin-top: 25px;
+}
+.first-feature .feature-text,
+.second-feature .feature-text,
+.third-feature .feature-text {
+    padding-left: 15px;
+}
 
-footer .right {
-    display: block;
+.feature-text p {
+    line-height: 20px;
+}
+/* #endregion */
+
+
+
+/* #region FOOTER */
+footer {
+    background-color:#000;
+    padding:20px;
+}
+.footer--area {
+    max-width:1140px;
+    margin:auto;
+    color:#FFF;
+    display:flex;
+}
+.footer--item {
+    flex:1;
+}
+.footer-social {
+    display:flex;
+}
+.footer-social a {
+    display:block;
+    width:25px;
+    height:25px;
+    background-color:#333;
+    display:flex;
     justify-content: center;
     align-items: center;
+    border-radius:13px;
+    margin-right:10px;
 }
-
-footer .right .footer-email {
-
+.footer-social a:hover {
+    background-color:#B28756;
 }
-
-footer input[type="email"] {
-    border: 0;
-    background-color: transparent;
-    color: var(--font-dark);
-    border-bottom: 2px solid #ccc;
-    text-align: center;
-    height: 40px;
-    width: 100%;
+.footer-social img {
+    height:10px;
+}
+.footer--item.area2 {
+    color:#999;
+    line-height:20px;
+    font-size:13px;
+    padding:0 10px 10px 10px;
+}
+.footer--item.area3 form {
+    background-color:#333;
+    text-align:center;
+    padding:30px;
+}
+.footer--item.area3 input {
+    width:100%;
+    height:40px;
+    border:0;
+    background:transparent;
+    border-bottom:1px solid #CCC;
     outline:0;
+    color:#FFF;
+    font-size:14px;
+    text-align:center;
 }
-
-footer input[type="submit"]{
+.footer--item.area3 button{
     border:0;
 }
 /* #endregion */
