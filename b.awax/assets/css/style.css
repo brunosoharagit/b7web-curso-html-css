@@ -1,4 +1,10 @@
 :root {
+    --bg-white: #fefefe;
+    --font-white: #fefefe;
+    --bg-black: #313131;
+    --font-black: #313131;
+    --bg-gray: #9d9d9d;
+
     --bg-light: #e3e3e3;
     --bg-dark: #090909;
     --font-light: #2d2d2d;
@@ -846,7 +852,44 @@ header {
 }
 /* #endregion */
 
-
+/* #region MAP */
+.desc-map {
+    background-image: url('/b.awax/complementos/mapa.jpg');
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.desc-map-area {
+    width: 100vw;
+    max-width: 1140px;
+    margin: auto;
+    color: var(--font-black);
+}
+.desc-map-area-info{
+    width: 50%;
+    padding: 30px;
+    background-color: var(--bg-white);
+    display: block;
+}
+.desc-map-info-items{
+    display: flex;
+    margin-top: 10px;
+}
+.desc-info-img { 
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    padding: 5px;
+    background-color: var(--bg-gray);
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.desc-info-img img {
+    width: 20px;
+    height: auto;
+}
+/* #endregion */
 
 /* #region FOOTER */
 footer {
