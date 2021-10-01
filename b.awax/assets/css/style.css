@@ -1274,6 +1274,14 @@ footer {
         margin: auto;
         text-align: center;
     }
+
+    .desc-map {
+        padding:0;
+    }
+
+    .desc-map-area {    
+        padding-bottom:300px;
+    }
 }
 /* #endregion */
 
